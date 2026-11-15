@@ -82,6 +82,13 @@ export const FIRST_RUN_SESSION_KEY = 'gev:first-run-mission-session:v1';
 
 /** @type {Readonly<Record<string, object>>} */
 export const FIRST_RUN_MISSIONS = Object.freeze({
+  // First, so it is the choice the launcher focuses: the sightings are what
+  // this fork is for. The records ship with the app, so it needs no key.
+  'uap-sightings': Object.freeze({
+    kind: 'globe',
+    layerIds: Object.freeze(['uap-sightings']),
+    busyKey: msg('Loading UAP sightings…'),
+  }),
   contacts: Object.freeze({
     kind: 'context',
     contextMode: 'contacts',

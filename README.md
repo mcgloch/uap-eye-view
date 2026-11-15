@@ -1,3 +1,5 @@
+> **UAP Eye View** is a fork of [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) by Bilawal Sidhu, used under the MIT licence. It is being turned into a public, explorable map of UFO/UAP sightings; see the [project plan](docs/UAP-PROJECT-PLAN.md). This is an independent project and is not affiliated with or endorsed by the original author. Everything below this note is the original God's Eye View README and still describes the upstream app.
+
 <div align="center">
 
 # 🌐 God's Eye View

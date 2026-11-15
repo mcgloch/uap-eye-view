@@ -1,6 +1,7 @@
 import { renderApplicationHtml } from './testSupport/applicationHtml.mjs';
 import { readStylesheet } from './testSupport/readStylesheet.mjs';
 import { GEV_REALTIME_TOOLS } from '../server/providers/openai/tools.js';
+import { VOICE_OFF_LAYERS } from './voice/layerManifest.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -386,8 +387,13 @@ test('one ESC does one thing — a Cockpit utility disclosure stops later docume
   // they own the same contract: their capture handler is the only one that can
   // keep a later document listener (Cockpit exit, the launcher) off the key, and
   // only the immediate form does it.
-  const utilityEsc = ui.slice(ui.indexOf('if (!displayOpen && !radioOpen) return;'));
-  const claim = utilityEsc.slice(0, utilityEsc.indexOf('setCockpitDisclosure(kind, false'));
+  const utilityEsc = ui.slice(
+    ui.indexOf('if (!displayOpen && !radioOpen) return;'),
+  );
+  const claim = utilityEsc.slice(
+    0,
+    utilityEsc.indexOf('setCockpitDisclosure(kind, false'),
+  );
   assert.match(claim, /event\.preventDefault\(\);/);
   assert.match(claim, /event\.stopImmediatePropagation\(\);/);
   assert.doesNotMatch(
@@ -558,13 +564,14 @@ function missionSpy({
   };
 }
 
-test('the menu is the four owner-ordered missions', () => {
+test('the menu is UAP sightings, then the four owner-ordered missions', () => {
   // INFRASTRUCTURE was removed after the owner playtested it: enabling all
   // three bundled layers at once put ~5,700 entities on a full-earth view and
   // tanked the frame rate. The layers stay reachable by hand and by voice; what
   // went is the one-click globe-scale dump. Restoring the tile needs the
   // globe-LOD declutter first.
   assert.deepEqual(Object.keys(FIRST_RUN_MISSIONS), [
+    'uap-sightings',
     'contacts',
     'space-missions',
     'environmental',
@@ -660,6 +667,14 @@ test('a refused layer fails the mission by name, and a stalled flight never does
     (await runFirstRunChoice('environmental', flightDown.deps)).ok,
     true,
   );
+});
+
+test('UAP sightings turns on its one layer and pulls out to the globe', async () => {
+  const spy = missionSpy();
+  const outcome = await runFirstRunChoice('uap-sightings', spy.deps);
+  assert.equal(outcome.ok, true);
+  assert.deepEqual(spy.calls.layerIds, ['uap-sightings']);
+  assert.equal(spy.calls.globeFlights, 1);
 });
 
 test('Explore manually touches nothing at all, and an unknown choice is inert', async () => {
@@ -785,7 +800,7 @@ test('markup, startup ordering and accessibility remain pinned', async () => {
     html,
     /id="first-run-launcher" role="dialog"[^>]*aria-labelledby="first-run-title"[^>]*hidden/,
   );
-  assert.equal((html.match(/data-first-run-choice=/g) || []).length, 4);
+  assert.equal((html.match(/data-first-run-choice=/g) || []).length, 5);
   assert.match(
     html,
     /data-first-run-status[^>]*role="status"[^>]*aria-live="polite"/,
@@ -825,6 +840,7 @@ test('markup, startup ordering and accessibility remain pinned', async () => {
     (match) => match[1],
   );
   assert.deepEqual(order, [
+    'uap-sightings',
     'contacts',
     'space-missions',
     'environmental',
@@ -1095,9 +1111,11 @@ test('every layer a mission drives is already in the shipped set_layer_visibilit
     (tool) => tool.name === 'set_layer_visibility',
   );
   const allowedLayers = tool.parameters.properties.layerId.enum;
-  const missionLayerIds = Object.values(FIRST_RUN_MISSIONS).flatMap(
-    (mission) => mission.layerIds || [],
-  );
+  // A layer deliberately kept out of voice (UAP sightings: the prompt has no
+  // room) has no enum value to check; its tile works by click alone.
+  const missionLayerIds = Object.values(FIRST_RUN_MISSIONS)
+    .flatMap((mission) => mission.layerIds || [])
+    .filter((layerId) => !(layerId in VOICE_OFF_LAYERS));
   assert.ok(missionLayerIds.length > 0);
   for (const layerId of missionLayerIds) {
     assert.ok(
