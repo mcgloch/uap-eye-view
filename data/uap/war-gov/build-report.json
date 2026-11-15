@@ -1,28 +1,22 @@
 {
   "indexRows": 478,
-  "records": 272,
-  "skipped": 210,
+  "records": 360,
+  "skipped": 201,
   "skippedByReason": {
-    "not a sighting: Not yet read. The index places this investigation report at the contractor's office in Las Vegas, not where the events took place.": 1,
     "archive volume; not yet read": 32,
     "no incident location in the index": 28,
     "no incident date in the index or the title": 14,
-    "cannot be pinned: \"…\"": 41,
-    "not a sighting: correspondence": 4,
+    "cannot be pinned: \"…\"": 40,
+    "not a sighting: correspondence": 3,
     "not a sighting: personnel record": 2,
     "not a sighting: research paper": 37,
     "not a sighting: Five technical concept papers; no individual sighting is described.": 1,
-    "not a sighting: programme document": 7,
     "not a sighting: A 1963 memorandum about handling recovered fragments; no observation is reported.": 1,
     "one of a set of files for the same event": 23,
-    "not a sighting: drawing attached to another report": 19
+    "not a sighting: drawing attached to another report": 19,
+    "not a sighting: LBJ Library file of 1962-1964 interagency memos, drafts and press guidance on which agency receives and identifies fallen space-vehicle fragments;": 1
   },
   "skippedRows": [
-    {
-      "id": "DOW-UAP-D174",
-      "title": "DOW-UAP-D174, Utah Ranch Investigation Report, April 2010",
-      "reason": "not a sighting: Not yet read. The index places this investigation report at the contractor's office in Las Vegas, not where the events took place."
-    },
     {
       "id": "18_100754_ General 1946-7_Vol_2",
       "title": "18_100754_ General 1946-7_Vol_2",
@@ -339,11 +333,6 @@
       "reason": "cannot be pinned: \"Various\""
     },
     {
-      "id": "DOW-UAP-D100",
-      "title": "DOW-UAP-D100, Air Materiel Command Report on Unidentified Flying Objects, 1947-1948",
-      "reason": "cannot be pinned: \"N/A\""
-    },
-    {
       "id": "DOW-UAP-D104",
       "title": "DOW-UAP-D104, Final Personnel Record for Newhouse, Delbert C., U.S. Navy, 1957",
       "reason": "not a sighting: personnel record"
@@ -542,41 +531,6 @@
       "id": "DOW-UAP-D166",
       "title": "DOW-UAP-D166, MUFON Reports Prepared for BAASS, November 2008",
       "reason": "not a sighting: Five technical concept papers; no individual sighting is described."
-    },
-    {
-      "id": "DOW-UAP-D167",
-      "title": "DOW-UAP-D167, Project Capella, December 2008",
-      "reason": "not a sighting: programme document"
-    },
-    {
-      "id": "DOW-UAP-D168",
-      "title": "DOW-UAP-D168, BAASS Project Management Plan, December 2008",
-      "reason": "not a sighting: programme document"
-    },
-    {
-      "id": "DOW-UAP-D169",
-      "title": "DOW-UAP-D169, BAASS Monthly Report, March 2009",
-      "reason": "not a sighting: programme document"
-    },
-    {
-      "id": "DOW-UAP-D170",
-      "title": "DOW-UAP-D170, BAASS Monthly Report, April 2009",
-      "reason": "not a sighting: programme document"
-    },
-    {
-      "id": "DOW-UAP-D171",
-      "title": "DOW-UAP-D171, BAASS Monthly Report, June 2009",
-      "reason": "not a sighting: programme document"
-    },
-    {
-      "id": "DOW-UAP-D173",
-      "title": "DOW-UAP-D173, BAASS Monthly Report, November 2009",
-      "reason": "not a sighting: programme document"
-    },
-    {
-      "id": "DOW-UAP-D175",
-      "title": "DOW-UAP-D175, BAASS Self-Assessment of UAP Analysis Capabilities, November 2010",
-      "reason": "not a sighting: programme document"
     },
     {
       "id": "DOW-UAP-D180",
@@ -1066,7 +1020,7 @@
     {
       "id": "USG-UAP-D002",
       "title": "USG-UAP-D002, Interagency Correspondence Concerning Space Fragments, 1962-1964",
-      "reason": "not a sighting: correspondence"
+      "reason": "not a sighting: LBJ Library file of 1962-1964 interagency memos, drafts and press guidance on which agency receives and identifies fallen space-vehicle fragments;"
     }
   ]
 }

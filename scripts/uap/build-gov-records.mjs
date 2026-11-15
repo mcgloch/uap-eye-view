@@ -361,6 +361,28 @@ export function buildGovRecords(rows, places, readings) {
         spreadPoint(places[key], index, group.length),
       ),
     );
+  // Readings that give the same point (several reports from one town or base)
+  // would hide each other: fan those out a little too.
+  const SAME_POINT_SPREAD = { high: 0.01, medium: 0.03, low: 0.15 };
+  const stacks = new Map();
+  for (const draft of drafts) {
+    if (draft.placeKey) continue;
+    const key = `${draft.record.lat},${draft.record.lon}`;
+    const stack = stacks.get(key) || [];
+    stack.push(draft.record);
+    stacks.set(key, stack);
+  }
+  for (const stack of stacks.values()) {
+    if (stack.length < 2) continue;
+    const { lat, lon, locationConfidence } = stack[0];
+    const spread = SAME_POINT_SPREAD[locationConfidence];
+    stack.forEach((record, index) =>
+      Object.assign(
+        record,
+        spreadPoint({ lat, lon, spread }, index, stack.length),
+      ),
+    );
+  }
   return { records: drafts.map((draft) => draft.record), skipped };
 }
 

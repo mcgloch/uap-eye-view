@@ -221,3 +221,23 @@ test('a reading of the PDF replaces the index date and place', () => {
     ['cannot be pinned: "Moon"', 'not a sighting: A memo.'],
   );
 });
+
+test('readings that give the same point are fanned out a little', () => {
+  const reading = (date) => ({
+    date,
+    placeName: 'A base',
+    lat: 48.4156,
+    lon: -101.358,
+    locationConfidence: 'high',
+    summary: 'A light.',
+  });
+  const { records } = buildGovRecords([indexRow()], places, {
+    'DOW-UAP-D900': [reading('1967-03-05'), reading('1975-11-10')],
+  });
+  const [first, second] = records;
+  assert.notDeepEqual([first.lat, first.lon], [second.lat, second.lon]);
+  for (const record of records) {
+    assert.ok(Math.abs(record.lat - 48.4156) <= 0.01);
+    assert.ok(Math.abs(record.lon + 101.358) <= 0.02);
+  }
+});
