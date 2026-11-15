@@ -3720,5 +3720,32 @@
   "Search layers…": "Pesquisar camadas…",
   "Layer groups": "Grupos de camadas",
   "Jump to {name}": "Ir para {name}",
-  "No layers match": "Nenhuma camada corresponde"
+  "No layers match": "Nenhuma camada corresponde",
+  "Loading UAP sightings…": "A carregar avistamentos de UAP…",
+  "US government": "Governo dos EUA",
+  "Location: known site": "Local: sítio conhecido",
+  "Location: approximate": "Local: aproximado",
+  "Location: very approximate": "Local: muito aproximado",
+  "Citation: {value}": "Citação: {value}",
+  "Sample pin: source and citation not yet checked": "Marcador de exemplo: fonte e citação ainda por verificar",
+  "Click the card to open the video ↗": "Clique no cartão para abrir o vídeo ↗",
+  "UAP sighting": "Avistamento de UAP",
+  "First year of the sighting period": "Primeiro ano do período de avistamentos",
+  "Last year of the sighting period": "Último ano do período de avistamentos",
+  "Hide sightings from this source": "Ocultar os avistamentos desta fonte",
+  "Show sightings from this source": "Mostrar os avistamentos desta fonte",
+  "UAP sightings unavailable": "Avistamentos de UAP indisponíveis",
+  "Sample pins · not yet from the project sources": "Marcadores de exemplo · ainda não vêm das fontes do projeto",
+  "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "A cor indica a fonte. Um marcador cheio é um sítio conhecido, um ténue é aproximado e um anel tracejado é muito aproximado. Os cartões relatam o que as testemunhas disseram e não afirmam o que era o objeto. Clique num marcador para abrir o cartão.",
+  "UAP sightings": "Avistamentos de UAP",
+  "Sightings": "Avistamentos",
+  "UAP SIGHTINGS": "AVISTAMENTOS DE UAP",
+  "Reported sightings by year and source": "Avistamentos relatados por ano e fonte",
+  "{count} sightings": {
+    "one": "{count} avistamento",
+    "many": "{count} avistamentos",
+    "other": "{count} avistamentos"
+  },
+  "Flying Saucer Review": "Flying Saucer Review",
+  "American Alchemy": "American Alchemy"
 }

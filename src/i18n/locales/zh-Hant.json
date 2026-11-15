@@ -3546,5 +3546,30 @@
   "Search layers…": "搜尋圖層…",
   "Layer groups": "圖層分組",
   "Jump to {name}": "跳至{name}",
-  "No layers match": "沒有符合的圖層"
+  "No layers match": "沒有符合的圖層",
+  "Loading UAP sightings…": "正在載入 UAP 目擊紀錄…",
+  "US government": "美國政府",
+  "Location: known site": "位置：已知地點",
+  "Location: approximate": "位置：大致",
+  "Location: very approximate": "位置：非常粗略",
+  "Citation: {value}": "引用：{value}",
+  "Sample pin: source and citation not yet checked": "範例標記：來源與引用尚未查證",
+  "Click the card to open the video ↗": "點擊卡片開啟影片 ↗",
+  "UAP sighting": "UAP 目擊",
+  "First year of the sighting period": "目擊時段的起始年份",
+  "Last year of the sighting period": "目擊時段的結束年份",
+  "Hide sightings from this source": "隱藏此來源的目擊紀錄",
+  "Show sightings from this source": "顯示此來源的目擊紀錄",
+  "UAP sightings unavailable": "UAP 目擊紀錄無法使用",
+  "Sample pins · not yet from the project sources": "範例標記 · 尚非來自專案來源",
+  "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "顏色表示來源。實心標記為已知地點，淺色標記為大致位置，虛線圓環為非常粗略的位置。卡片只轉述目擊者的說法，不對物體是什麼作出判斷。點擊標記可開啟卡片。",
+  "UAP sightings": "UAP 目擊紀錄",
+  "Sightings": "目擊紀錄",
+  "UAP SIGHTINGS": "UAP 目擊事件",
+  "Reported sightings by year and source": "依年份與來源檢視目擊報告",
+  "{count} sightings": {
+    "other": "{count} 筆目擊"
+  },
+  "Flying Saucer Review": "Flying Saucer Review",
+  "American Alchemy": "American Alchemy"
 }

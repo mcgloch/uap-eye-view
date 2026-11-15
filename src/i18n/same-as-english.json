@@ -47,7 +47,9 @@
     "▲ {frp} MW",
     "ICAO: {id}",
     "MMSI: {id}",
-    "NORAD: {id}"
+    "NORAD: {id}",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "de": [
     "1090 MHz",
@@ -252,7 +254,9 @@
     "OPT-IN",
     "{minutes} min",
     "1 min/s",
-    "Status"
+    "Status",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "es": [
     "1 min/s",
@@ -417,7 +421,9 @@
     "NORAD: {id}",
     "Regional",
     "{datasets} · {tiles} · {packs}",
-    "VIRTUAL"
+    "VIRTUAL",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "fr": [
     "1 min/s",
@@ -641,7 +647,9 @@
     "Orthophoto",
     "Oblique",
     "Type",
-    "{range} NM"
+    "{range} NM",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "it": [
     "1 min/s",
@@ -848,7 +856,9 @@
     "NORAD: {id}",
     "DATASET",
     "{count} datasets",
-    "ZOOM"
+    "ZOOM",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "ja": [
     "1090 MHz",
@@ -914,7 +924,9 @@
     "▲ {frp} MW",
     "ICAO: {id}",
     "MMSI: {id}",
-    "NORAD: {id}"
+    "NORAD: {id}",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "pt": [
     "1 min/s",
@@ -1079,7 +1091,9 @@
     "MMSI: {id}",
     "NORAD: {id}",
     "Regional",
-    "VIRTUAL"
+    "VIRTUAL",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "ru": [
     "1900–1945",
@@ -1116,7 +1130,9 @@
     "ICAO: {id}",
     "MMSI: {id}",
     "NORAD: {id}",
-    "{datasets} · {tiles} · {packs}"
+    "{datasets} · {tiles} · {packs}",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "sv": [
     "STATION",
@@ -1277,7 +1293,9 @@
     "ICAO: {id}",
     "NORAD: {id}",
     "MMSI: {id}",
-    "Status"
+    "Status",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "uk": [
     "1900–1945",
@@ -1308,7 +1326,9 @@
     "{division}, {country}",
     "ICAO: {id}",
     "MMSI: {id}",
-    "NORAD: {id}"
+    "NORAD: {id}",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "zh-CN": [
     "1090 MHz",
@@ -1379,7 +1399,9 @@
     "CC BY 4.0",
     "acartia.io ↗",
     "iNaturalist ↗",
-    "iNaturalist"
+    "iNaturalist",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "zh-Hant": [
     "1090 MHz",
@@ -1450,7 +1472,9 @@
     "CC BY 4.0",
     "acartia.io ↗",
     "iNaturalist ↗",
-    "iNaturalist"
+    "iNaturalist",
+    "Flying Saucer Review",
+    "American Alchemy"
   ],
   "he": [
     "{speed} kn",
@@ -1550,6 +1574,8 @@
     "Ironbow",
     "ICAO: {id}",
     "MMSI: {id}",
-    "NORAD: {id}"
+    "NORAD: {id}",
+    "Flying Saucer Review",
+    "American Alchemy"
   ]
 }
