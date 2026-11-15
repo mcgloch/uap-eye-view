@@ -41,6 +41,11 @@ function onSuppress(event) {
          public → the data is real. Tile subcopy stays purely functional. -->
     <p id="first-run-description">{{ launcher?.description ?? DESCRIPTION }}</p>
     <div class="first-run-choices ui-scroll" :data-scrollable="launcher?.scrollable ?? undefined">
+      <button type="button" data-first-run-choice="uap-sightings" :aria-disabled="launcher?.busy ?? undefined" @click="controls?.choose('uap-sightings')">
+        <span class="material-symbols-outlined" aria-hidden="true">flare</span>
+        <span><strong>{{ t('UAP SIGHTINGS') }}</strong><small>{{ t('Reported sightings by year and source') }}</small></span>
+        <span class="material-symbols-outlined first-run-arrow" aria-hidden="true">arrow_forward</span>
+      </button>
       <button type="button" data-first-run-choice="contacts" :aria-disabled="launcher?.busy ?? undefined" @click="controls?.choose('contacts')">
         <span class="material-symbols-outlined" aria-hidden="true">radar</span>
         <span><strong>{{ t('LIVE CONTACTS') }}</strong><small>{{ t('Aircraft, vessels and nearby intelligence') }}</small></span>
