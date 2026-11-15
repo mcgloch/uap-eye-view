@@ -44,6 +44,10 @@ function lifecycleStateLabel(lifecycleState) {
 // Presentation order is independent of catalog registration and startup order.
 const PANEL_GROUPS = [
   {
+    label: msg('Sightings'),
+    ids: ['uap-sightings'],
+  },
+  {
     label: msg('Movement'),
     ids: [
       'satellites',

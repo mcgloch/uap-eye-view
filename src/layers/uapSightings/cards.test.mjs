@@ -1,0 +1,53 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { describeSighting, formatSightingDate } from './cards.js';
+import { normalizeSighting } from './records.js';
+
+const record = (extra = {}) =>
+  normalizeSighting({
+    id: 'a',
+    source: 'fsr',
+    date: '1967-09-04',
+    placeName: 'Somewhere',
+    lat: 52,
+    lon: -3,
+    locationConfidence: 'low',
+    summary: 'A witness reported a light.',
+    reviewStatus: 'published',
+    ...extra,
+  });
+
+test('the date shows no more than the record states', () => {
+  assert.equal(formatSightingDate(record({ date: '1967' })), '1967');
+  const month = formatSightingDate(record({ date: '1967-09' }));
+  assert.match(month, /1967/);
+  assert.doesNotMatch(month, /\b1\b/);
+  assert.match(formatSightingDate(record()), /\b4\b.*1967|1967.*\b4\b/);
+});
+
+test('a card gives the date, summary, confidence and source', () => {
+  const { title, details, link } = describeSighting(
+    record({ citation: 'Vol. 13, No. 4, p. 3' }),
+  );
+  assert.equal(title, 'UAP sighting · Somewhere');
+  assert.equal(details[1], 'A witness reported a light.');
+  assert.ok(details.includes('Location: very approximate'));
+  assert.ok(details.includes('Source: Flying Saucer Review'));
+  assert.ok(details.includes('Citation: Vol. 13, No. 4, p. 3'));
+  assert.ok(!details.some((line) => line.startsWith('Sample pin')));
+  assert.equal(link, null);
+});
+
+test('a placeholder says so, and a video adds its link', () => {
+  const { details, link } = describeSighting(
+    record({
+      reviewStatus: 'placeholder',
+      media: { youtubeId: 'abcdefghijk', startSeconds: 30 },
+    }),
+  );
+  assert.ok(
+    details.includes('Sample pin: source and citation not yet checked'),
+  );
+  assert.equal(details.at(-1), 'Click the card to open the video ↗');
+  assert.equal(link, 'https://www.youtube.com/watch?v=abcdefghijk&t=30s');
+});
