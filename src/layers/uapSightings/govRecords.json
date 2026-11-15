@@ -1,6 +1,6 @@
 {
   "source": "https://www.war.gov/UFO/",
-  "version": "gov-5547887ad408",
+  "version": "gov-e20c6f789a32",
   "records": [
     {
       "id": "gov-dow-uap-d155",
@@ -593,7 +593,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D010 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf",
+        "dvidsId": "1006056"
       },
       "reviewStatus": "extracted"
     },
@@ -625,7 +626,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D014 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d14-mission-report-iraq-may-2022.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d14-mission-report-iraq-may-2022.pdf",
+        "dvidsId": "1006059"
       },
       "reviewStatus": "extracted"
     },
@@ -641,7 +643,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D016 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d16-mission-report-syria-july-2022.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d16-mission-report-syria-july-2022.pdf",
+        "dvidsId": "1006060"
       },
       "reviewStatus": "extracted"
     },
@@ -674,7 +677,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D018 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d18-mission-report-iraq-december-2022.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d18-mission-report-iraq-december-2022.pdf",
+        "dvidsId": "1006062"
       },
       "reviewStatus": "extracted"
     },
@@ -722,7 +726,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D023 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf",
+        "dvidsId": "1006063"
       },
       "reviewStatus": "extracted"
     },
@@ -786,7 +791,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D032 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf",
+        "dvidsId": "1006076"
       },
       "reviewStatus": "extracted"
     },
@@ -802,7 +808,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D033 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf",
+        "dvidsId": "1006080"
       },
       "reviewStatus": "extracted"
     },
@@ -818,7 +825,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D035 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf",
+        "dvidsId": "1006082"
       },
       "reviewStatus": "extracted"
     },
@@ -834,7 +842,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-D038 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf"
+        "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf",
+        "dvidsId": "1006083"
       },
       "reviewStatus": "extracted"
     },
@@ -2979,7 +2988,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR019 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006056"
+        "url": "https://www.dvidshub.net/video/1006056",
+        "dvidsId": "1006056"
       },
       "reviewStatus": "extracted"
     },
@@ -3013,7 +3023,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR021 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006059"
+        "url": "https://www.dvidshub.net/video/1006059",
+        "dvidsId": "1006059"
       },
       "reviewStatus": "extracted"
     },
@@ -3030,7 +3041,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR022 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006060"
+        "url": "https://www.dvidshub.net/video/1006060",
+        "dvidsId": "1006060"
       },
       "reviewStatus": "extracted"
     },
@@ -3047,7 +3059,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR023 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006062"
+        "url": "https://www.dvidshub.net/video/1006062",
+        "dvidsId": "1006062"
       },
       "reviewStatus": "extracted"
     },
@@ -3063,7 +3076,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR024 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014100"
+        "url": "https://www.dvidshub.net/video/1014100",
+        "dvidsId": "1014100"
       },
       "reviewStatus": "extracted"
     },
@@ -3080,7 +3094,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR026 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006063"
+        "url": "https://www.dvidshub.net/video/1006063",
+        "dvidsId": "1006063"
       },
       "reviewStatus": "extracted"
     },
@@ -3097,7 +3112,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR027 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006067"
+        "url": "https://www.dvidshub.net/video/1006067",
+        "dvidsId": "1006067"
       },
       "reviewStatus": "extracted"
     },
@@ -3114,7 +3130,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR028 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006073"
+        "url": "https://www.dvidshub.net/video/1006073",
+        "dvidsId": "1006073"
       },
       "reviewStatus": "extracted"
     },
@@ -3131,7 +3148,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR029 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006074"
+        "url": "https://www.dvidshub.net/video/1006074",
+        "dvidsId": "1006074"
       },
       "reviewStatus": "extracted"
     },
@@ -3147,7 +3165,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR030 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014102"
+        "url": "https://www.dvidshub.net/video/1014102",
+        "dvidsId": "1014102"
       },
       "reviewStatus": "extracted"
     },
@@ -3164,7 +3183,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR031 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006076"
+        "url": "https://www.dvidshub.net/video/1006076",
+        "dvidsId": "1006076"
       },
       "reviewStatus": "extracted"
     },
@@ -3181,7 +3201,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR032 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006078"
+        "url": "https://www.dvidshub.net/video/1006078",
+        "dvidsId": "1006078"
       },
       "reviewStatus": "extracted"
     },
@@ -3198,7 +3219,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR033 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006079"
+        "url": "https://www.dvidshub.net/video/1006079",
+        "dvidsId": "1006079"
       },
       "reviewStatus": "extracted"
     },
@@ -3215,7 +3237,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR034 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006080"
+        "url": "https://www.dvidshub.net/video/1006080",
+        "dvidsId": "1006080"
       },
       "reviewStatus": "extracted"
     },
@@ -3232,7 +3255,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR035 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006082"
+        "url": "https://www.dvidshub.net/video/1006082",
+        "dvidsId": "1006082"
       },
       "reviewStatus": "extracted"
     },
@@ -3249,7 +3273,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR036 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006083"
+        "url": "https://www.dvidshub.net/video/1006083",
+        "dvidsId": "1006083"
       },
       "reviewStatus": "extracted"
     },
@@ -3266,7 +3291,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR037 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006087"
+        "url": "https://www.dvidshub.net/video/1006087",
+        "dvidsId": "1006087"
       },
       "reviewStatus": "extracted"
     },
@@ -3283,7 +3309,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR038 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006088"
+        "url": "https://www.dvidshub.net/video/1006088",
+        "dvidsId": "1006088"
       },
       "reviewStatus": "extracted"
     },
@@ -3300,7 +3327,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR039 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006089"
+        "url": "https://www.dvidshub.net/video/1006089",
+        "dvidsId": "1006089"
       },
       "reviewStatus": "extracted"
     },
@@ -3317,7 +3345,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR040 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006093"
+        "url": "https://www.dvidshub.net/video/1006093",
+        "dvidsId": "1006093"
       },
       "reviewStatus": "extracted"
     },
@@ -3334,7 +3363,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR041 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006094"
+        "url": "https://www.dvidshub.net/video/1006094",
+        "dvidsId": "1006094"
       },
       "reviewStatus": "extracted"
     },
@@ -3351,7 +3381,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR042 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006097"
+        "url": "https://www.dvidshub.net/video/1006097",
+        "dvidsId": "1006097"
       },
       "reviewStatus": "extracted"
     },
@@ -3368,7 +3399,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR043 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006159"
+        "url": "https://www.dvidshub.net/video/1006159",
+        "dvidsId": "1006159"
       },
       "reviewStatus": "extracted"
     },
@@ -3385,7 +3417,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR044 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006104"
+        "url": "https://www.dvidshub.net/video/1006104",
+        "dvidsId": "1006104"
       },
       "reviewStatus": "extracted"
     },
@@ -3402,7 +3435,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR045 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006105"
+        "url": "https://www.dvidshub.net/video/1006105",
+        "dvidsId": "1006105"
       },
       "reviewStatus": "extracted"
     },
@@ -3419,7 +3453,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR046 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006106"
+        "url": "https://www.dvidshub.net/video/1006106",
+        "dvidsId": "1006106"
       },
       "reviewStatus": "extracted"
     },
@@ -3436,7 +3471,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR047 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006107"
+        "url": "https://www.dvidshub.net/video/1006107",
+        "dvidsId": "1006107"
       },
       "reviewStatus": "extracted"
     },
@@ -3453,7 +3489,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR048 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006110"
+        "url": "https://www.dvidshub.net/video/1006110",
+        "dvidsId": "1006110"
       },
       "reviewStatus": "extracted"
     },
@@ -3470,7 +3507,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR049 · Department of War · war.gov PURSUE release of 2026-05-08",
       "media": {
-        "url": "https://www.dvidshub.net/video/1006111"
+        "url": "https://www.dvidshub.net/video/1006111",
+        "dvidsId": "1006111"
       },
       "reviewStatus": "extracted"
     },
@@ -3486,7 +3524,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR050 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007706"
+        "url": "https://www.dvidshub.net/video/1007706",
+        "dvidsId": "1007706"
       },
       "reviewStatus": "extracted"
     },
@@ -3502,7 +3541,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR051 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007707"
+        "url": "https://www.dvidshub.net/video/1007707",
+        "dvidsId": "1007707"
       },
       "reviewStatus": "extracted"
     },
@@ -3518,7 +3558,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR053 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007709"
+        "url": "https://www.dvidshub.net/video/1007709",
+        "dvidsId": "1007709"
       },
       "reviewStatus": "extracted"
     },
@@ -3534,7 +3575,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR054 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007711"
+        "url": "https://www.dvidshub.net/video/1007711",
+        "dvidsId": "1007711"
       },
       "reviewStatus": "extracted"
     },
@@ -3550,7 +3592,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR055 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007713"
+        "url": "https://www.dvidshub.net/video/1007713",
+        "dvidsId": "1007713"
       },
       "reviewStatus": "extracted"
     },
@@ -3566,7 +3609,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR057a · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007720"
+        "url": "https://www.dvidshub.net/video/1007720",
+        "dvidsId": "1007720"
       },
       "reviewStatus": "extracted"
     },
@@ -3582,7 +3626,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR057b · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007720"
+        "url": "https://www.dvidshub.net/video/1007720",
+        "dvidsId": "1007720"
       },
       "reviewStatus": "extracted"
     },
@@ -3598,7 +3643,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR059 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007727"
+        "url": "https://www.dvidshub.net/video/1007727",
+        "dvidsId": "1007727"
       },
       "reviewStatus": "extracted"
     },
@@ -3614,7 +3660,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR060 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007734"
+        "url": "https://www.dvidshub.net/video/1007734",
+        "dvidsId": "1007734"
       },
       "reviewStatus": "extracted"
     },
@@ -3630,7 +3677,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR061 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007735"
+        "url": "https://www.dvidshub.net/video/1007735",
+        "dvidsId": "1007735"
       },
       "reviewStatus": "extracted"
     },
@@ -3646,7 +3694,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR062 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007739"
+        "url": "https://www.dvidshub.net/video/1007739",
+        "dvidsId": "1007739"
       },
       "reviewStatus": "extracted"
     },
@@ -3662,7 +3711,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR063 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007740"
+        "url": "https://www.dvidshub.net/video/1007740",
+        "dvidsId": "1007740"
       },
       "reviewStatus": "extracted"
     },
@@ -3679,7 +3729,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR064 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007741"
+        "url": "https://www.dvidshub.net/video/1007741",
+        "dvidsId": "1007741"
       },
       "reviewStatus": "extracted"
     },
@@ -3695,7 +3746,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR065 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007777"
+        "url": "https://www.dvidshub.net/video/1007777",
+        "dvidsId": "1007777"
       },
       "reviewStatus": "extracted"
     },
@@ -3711,7 +3763,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR066 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007778"
+        "url": "https://www.dvidshub.net/video/1007778",
+        "dvidsId": "1007778"
       },
       "reviewStatus": "extracted"
     },
@@ -3727,7 +3780,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR068 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007780"
+        "url": "https://www.dvidshub.net/video/1007780",
+        "dvidsId": "1007780"
       },
       "reviewStatus": "extracted"
     },
@@ -3743,7 +3797,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR070 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007783"
+        "url": "https://www.dvidshub.net/video/1007783",
+        "dvidsId": "1007783"
       },
       "reviewStatus": "extracted"
     },
@@ -3759,7 +3814,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR071 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007784"
+        "url": "https://www.dvidshub.net/video/1007784",
+        "dvidsId": "1007784"
       },
       "reviewStatus": "extracted"
     },
@@ -3775,7 +3831,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR072 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007788"
+        "url": "https://www.dvidshub.net/video/1007788",
+        "dvidsId": "1007788"
       },
       "reviewStatus": "extracted"
     },
@@ -3791,7 +3848,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR073 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007790"
+        "url": "https://www.dvidshub.net/video/1007790",
+        "dvidsId": "1007790"
       },
       "reviewStatus": "extracted"
     },
@@ -3807,7 +3865,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR074 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007791"
+        "url": "https://www.dvidshub.net/video/1007791",
+        "dvidsId": "1007791"
       },
       "reviewStatus": "extracted"
     },
@@ -3823,7 +3882,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR075 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007795"
+        "url": "https://www.dvidshub.net/video/1007795",
+        "dvidsId": "1007795"
       },
       "reviewStatus": "extracted"
     },
@@ -3839,7 +3899,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR076 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007804"
+        "url": "https://www.dvidshub.net/video/1007804",
+        "dvidsId": "1007804"
       },
       "reviewStatus": "extracted"
     },
@@ -3855,7 +3916,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR077 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007809"
+        "url": "https://www.dvidshub.net/video/1007809",
+        "dvidsId": "1007809"
       },
       "reviewStatus": "extracted"
     },
@@ -3871,7 +3933,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR078 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007812"
+        "url": "https://www.dvidshub.net/video/1007812",
+        "dvidsId": "1007812"
       },
       "reviewStatus": "extracted"
     },
@@ -3887,7 +3950,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR079 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007816"
+        "url": "https://www.dvidshub.net/video/1007816",
+        "dvidsId": "1007816"
       },
       "reviewStatus": "extracted"
     },
@@ -3903,7 +3967,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR080 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007803"
+        "url": "https://www.dvidshub.net/video/1007803",
+        "dvidsId": "1007803"
       },
       "reviewStatus": "extracted"
     },
@@ -3919,7 +3984,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR081 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007805"
+        "url": "https://www.dvidshub.net/video/1007805",
+        "dvidsId": "1007805"
       },
       "reviewStatus": "extracted"
     },
@@ -3935,7 +4001,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR082 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007807"
+        "url": "https://www.dvidshub.net/video/1007807",
+        "dvidsId": "1007807"
       },
       "reviewStatus": "extracted"
     },
@@ -3951,7 +4018,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR083 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007808"
+        "url": "https://www.dvidshub.net/video/1007808",
+        "dvidsId": "1007808"
       },
       "reviewStatus": "extracted"
     },
@@ -3967,7 +4035,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR084 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007810"
+        "url": "https://www.dvidshub.net/video/1007810",
+        "dvidsId": "1007810"
       },
       "reviewStatus": "extracted"
     },
@@ -3983,7 +4052,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR085 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007796"
+        "url": "https://www.dvidshub.net/video/1007796",
+        "dvidsId": "1007796"
       },
       "reviewStatus": "extracted"
     },
@@ -3999,7 +4069,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR086 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007797"
+        "url": "https://www.dvidshub.net/video/1007797",
+        "dvidsId": "1007797"
       },
       "reviewStatus": "extracted"
     },
@@ -4015,7 +4086,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR087 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007799"
+        "url": "https://www.dvidshub.net/video/1007799",
+        "dvidsId": "1007799"
       },
       "reviewStatus": "extracted"
     },
@@ -4031,7 +4103,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR088 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007800"
+        "url": "https://www.dvidshub.net/video/1007800",
+        "dvidsId": "1007800"
       },
       "reviewStatus": "extracted"
     },
@@ -4047,7 +4120,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR089 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007712"
+        "url": "https://www.dvidshub.net/video/1007712",
+        "dvidsId": "1007712"
       },
       "reviewStatus": "extracted"
     },
@@ -4063,7 +4137,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR090 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007719"
+        "url": "https://www.dvidshub.net/video/1007719",
+        "dvidsId": "1007719"
       },
       "reviewStatus": "extracted"
     },
@@ -4079,7 +4154,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR091 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007716"
+        "url": "https://www.dvidshub.net/video/1007716",
+        "dvidsId": "1007716"
       },
       "reviewStatus": "extracted"
     },
@@ -4095,7 +4171,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR092 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007715"
+        "url": "https://www.dvidshub.net/video/1007715",
+        "dvidsId": "1007715"
       },
       "reviewStatus": "extracted"
     },
@@ -4111,7 +4188,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR093 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007721"
+        "url": "https://www.dvidshub.net/video/1007721",
+        "dvidsId": "1007721"
       },
       "reviewStatus": "extracted"
     },
@@ -4127,7 +4205,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR094 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007722"
+        "url": "https://www.dvidshub.net/video/1007722",
+        "dvidsId": "1007722"
       },
       "reviewStatus": "extracted"
     },
@@ -4143,7 +4222,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR095 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007725"
+        "url": "https://www.dvidshub.net/video/1007725",
+        "dvidsId": "1007725"
       },
       "reviewStatus": "extracted"
     },
@@ -4159,7 +4239,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR096 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007726"
+        "url": "https://www.dvidshub.net/video/1007726",
+        "dvidsId": "1007726"
       },
       "reviewStatus": "extracted"
     },
@@ -4175,7 +4256,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR097 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007728"
+        "url": "https://www.dvidshub.net/video/1007728",
+        "dvidsId": "1007728"
       },
       "reviewStatus": "extracted"
     },
@@ -4191,7 +4273,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR099 · Department of War · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007738"
+        "url": "https://www.dvidshub.net/video/1007738",
+        "dvidsId": "1007738"
       },
       "reviewStatus": "extracted"
     },
@@ -4207,7 +4290,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR100 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014096"
+        "url": "https://www.dvidshub.net/video/1014096",
+        "dvidsId": "1014096"
       },
       "reviewStatus": "extracted"
     },
@@ -4223,7 +4307,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR101 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014097"
+        "url": "https://www.dvidshub.net/video/1014097",
+        "dvidsId": "1014097"
       },
       "reviewStatus": "extracted"
     },
@@ -4239,7 +4324,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR102 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014098"
+        "url": "https://www.dvidshub.net/video/1014098",
+        "dvidsId": "1014098"
       },
       "reviewStatus": "extracted"
     },
@@ -4255,7 +4341,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR103 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014099"
+        "url": "https://www.dvidshub.net/video/1014099",
+        "dvidsId": "1014099"
       },
       "reviewStatus": "extracted"
     },
@@ -4271,7 +4358,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR104 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014101"
+        "url": "https://www.dvidshub.net/video/1014101",
+        "dvidsId": "1014101"
       },
       "reviewStatus": "extracted"
     },
@@ -4287,7 +4375,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR105 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014103"
+        "url": "https://www.dvidshub.net/video/1014103",
+        "dvidsId": "1014103"
       },
       "reviewStatus": "extracted"
     },
@@ -4303,7 +4392,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR106 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014104"
+        "url": "https://www.dvidshub.net/video/1014104",
+        "dvidsId": "1014104"
       },
       "reviewStatus": "extracted"
     },
@@ -4319,7 +4409,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR107 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014105"
+        "url": "https://www.dvidshub.net/video/1014105",
+        "dvidsId": "1014105"
       },
       "reviewStatus": "extracted"
     },
@@ -4335,7 +4426,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR108 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014106"
+        "url": "https://www.dvidshub.net/video/1014106",
+        "dvidsId": "1014106"
       },
       "reviewStatus": "extracted"
     },
@@ -4351,7 +4443,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR109 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014108"
+        "url": "https://www.dvidshub.net/video/1014108",
+        "dvidsId": "1014108"
       },
       "reviewStatus": "extracted"
     },
@@ -4367,7 +4460,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR110 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014112"
+        "url": "https://www.dvidshub.net/video/1014112",
+        "dvidsId": "1014112"
       },
       "reviewStatus": "extracted"
     },
@@ -4383,7 +4477,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR111 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014114"
+        "url": "https://www.dvidshub.net/video/1014114",
+        "dvidsId": "1014114"
       },
       "reviewStatus": "extracted"
     },
@@ -4399,7 +4494,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR112 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014128"
+        "url": "https://www.dvidshub.net/video/1014128",
+        "dvidsId": "1014128"
       },
       "reviewStatus": "extracted"
     },
@@ -4415,7 +4511,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR113 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014119"
+        "url": "https://www.dvidshub.net/video/1014119",
+        "dvidsId": "1014119"
       },
       "reviewStatus": "extracted"
     },
@@ -4431,7 +4528,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR114 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014121"
+        "url": "https://www.dvidshub.net/video/1014121",
+        "dvidsId": "1014121"
       },
       "reviewStatus": "extracted"
     },
@@ -4447,7 +4545,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR115 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014123"
+        "url": "https://www.dvidshub.net/video/1014123",
+        "dvidsId": "1014123"
       },
       "reviewStatus": "extracted"
     },
@@ -4463,7 +4562,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR116 · Department of War · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014124"
+        "url": "https://www.dvidshub.net/video/1014124",
+        "dvidsId": "1014124"
       },
       "reviewStatus": "extracted"
     },
@@ -4479,7 +4579,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR123 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017805"
+        "url": "https://www.dvidshub.net/video/1017805",
+        "dvidsId": "1017805"
       },
       "reviewStatus": "extracted"
     },
@@ -4495,7 +4596,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR124 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017806"
+        "url": "https://www.dvidshub.net/video/1017806",
+        "dvidsId": "1017806"
       },
       "reviewStatus": "extracted"
     },
@@ -4511,7 +4613,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR125 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017788"
+        "url": "https://www.dvidshub.net/video/1017788",
+        "dvidsId": "1017788"
       },
       "reviewStatus": "extracted"
     },
@@ -4527,7 +4630,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR126 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017790"
+        "url": "https://www.dvidshub.net/video/1017790",
+        "dvidsId": "1017790"
       },
       "reviewStatus": "extracted"
     },
@@ -4543,7 +4647,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR127 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017791"
+        "url": "https://www.dvidshub.net/video/1017791",
+        "dvidsId": "1017791"
       },
       "reviewStatus": "extracted"
     },
@@ -4591,7 +4696,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR133 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023396"
+        "url": "https://www.dvidshub.net/video/1023396",
+        "dvidsId": "1023396"
       },
       "reviewStatus": "extracted"
     },
@@ -4607,7 +4713,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR134 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017792"
+        "url": "https://www.dvidshub.net/video/1017792",
+        "dvidsId": "1017792"
       },
       "reviewStatus": "extracted"
     },
@@ -4623,7 +4730,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR135 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023397"
+        "url": "https://www.dvidshub.net/video/1023397",
+        "dvidsId": "1023397"
       },
       "reviewStatus": "extracted"
     },
@@ -4639,7 +4747,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR136 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017796"
+        "url": "https://www.dvidshub.net/video/1017796",
+        "dvidsId": "1017796"
       },
       "reviewStatus": "extracted"
     },
@@ -4655,7 +4764,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR141 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023400"
+        "url": "https://www.dvidshub.net/video/1023400",
+        "dvidsId": "1023400"
       },
       "reviewStatus": "extracted"
     },
@@ -4671,7 +4781,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR142 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017797"
+        "url": "https://www.dvidshub.net/video/1017797",
+        "dvidsId": "1017797"
       },
       "reviewStatus": "extracted"
     },
@@ -4687,7 +4798,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR143 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023403"
+        "url": "https://www.dvidshub.net/video/1023403",
+        "dvidsId": "1023403"
       },
       "reviewStatus": "extracted"
     },
@@ -4703,7 +4815,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR144 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023404"
+        "url": "https://www.dvidshub.net/video/1023404",
+        "dvidsId": "1023404"
       },
       "reviewStatus": "extracted"
     },
@@ -4719,7 +4832,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR148 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023405"
+        "url": "https://www.dvidshub.net/video/1023405",
+        "dvidsId": "1023405"
       },
       "reviewStatus": "extracted"
     },
@@ -4735,7 +4849,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR149 · Department of War · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017799"
+        "url": "https://www.dvidshub.net/video/1017799",
+        "dvidsId": "1017799"
       },
       "reviewStatus": "extracted"
     },
@@ -4751,7 +4866,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR150 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023406"
+        "url": "https://www.dvidshub.net/video/1023406",
+        "dvidsId": "1023406"
       },
       "reviewStatus": "extracted"
     },
@@ -4767,7 +4883,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR151 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023408"
+        "url": "https://www.dvidshub.net/video/1023408",
+        "dvidsId": "1023408"
       },
       "reviewStatus": "extracted"
     },
@@ -4783,7 +4900,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR152 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023410"
+        "url": "https://www.dvidshub.net/video/1023410",
+        "dvidsId": "1023410"
       },
       "reviewStatus": "extracted"
     },
@@ -4799,7 +4917,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR159 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023402"
+        "url": "https://www.dvidshub.net/video/1023402",
+        "dvidsId": "1023402"
       },
       "reviewStatus": "extracted"
     },
@@ -4815,7 +4934,8 @@
       "summaryBy": "official",
       "citation": "DOW-UAP-PR160 · Department of War · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023407"
+        "url": "https://www.dvidshub.net/video/1023407",
+        "dvidsId": "1023407"
       },
       "reviewStatus": "extracted"
     },
@@ -5250,7 +5370,8 @@
       "summaryBy": "official",
       "citation": "FBI-UAP-PR001 · FBI · war.gov PURSUE release of 2026-06-12",
       "media": {
-        "url": "https://www.dvidshub.net/video/1010263"
+        "url": "https://www.dvidshub.net/video/1010263",
+        "dvidsId": "1010263"
       },
       "reviewStatus": "extracted"
     },
@@ -5266,7 +5387,8 @@
       "summaryBy": "official",
       "citation": "FBI-UAP-PR002 · FBI · war.gov PURSUE release of 2026-06-12",
       "media": {
-        "url": "https://www.dvidshub.net/video/1010264"
+        "url": "https://www.dvidshub.net/video/1010264",
+        "dvidsId": "1010264"
       },
       "reviewStatus": "extracted"
     },
@@ -5282,7 +5404,8 @@
       "summaryBy": "official",
       "citation": "FBI-UAP-PR003 · FBI · war.gov PURSUE release of 2026-06-12",
       "media": {
-        "url": "https://www.dvidshub.net/video/1010267"
+        "url": "https://www.dvidshub.net/video/1010267",
+        "dvidsId": "1010267"
       },
       "reviewStatus": "extracted"
     },
@@ -5298,7 +5421,8 @@
       "summaryBy": "official",
       "citation": "FBI-UAP-PR004 · FBI · war.gov PURSUE release of 2026-06-12",
       "media": {
-        "url": "https://www.dvidshub.net/video/1010269"
+        "url": "https://www.dvidshub.net/video/1010269",
+        "dvidsId": "1010269"
       },
       "reviewStatus": "extracted"
     },
@@ -5314,7 +5438,8 @@
       "summaryBy": "official",
       "citation": "FBI-UAP-PR005 · FBI · war.gov PURSUE release of 2026-06-12",
       "media": {
-        "url": "https://www.dvidshub.net/video/1010272"
+        "url": "https://www.dvidshub.net/video/1010272",
+        "dvidsId": "1010272"
       },
       "reviewStatus": "extracted"
     },
@@ -5330,7 +5455,8 @@
       "summaryBy": "official",
       "citation": "FBI-UAP-PR006 · FBI · war.gov PURSUE release of 2026-06-12",
       "media": {
-        "url": "https://www.dvidshub.net/video/1010276"
+        "url": "https://www.dvidshub.net/video/1010276",
+        "dvidsId": "1010276"
       },
       "reviewStatus": "extracted"
     },
@@ -5346,7 +5472,8 @@
       "summaryBy": "official",
       "citation": "FBI-UAP-PR007 · FBI · war.gov PURSUE release of 2026-08-07",
       "media": {
-        "url": "https://www.dvidshub.net/video/1017801"
+        "url": "https://www.dvidshub.net/video/1017801",
+        "dvidsId": "1017801"
       },
       "reviewStatus": "extracted"
     },
@@ -5442,7 +5569,8 @@
       "summaryBy": "official",
       "citation": "LLE-UAP-PR001 · Local Law Enforcement · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023409"
+        "url": "https://www.dvidshub.net/video/1023409",
+        "dvidsId": "1023409"
       },
       "reviewStatus": "extracted"
     },
@@ -5458,7 +5586,8 @@
       "summaryBy": "official",
       "citation": "LLE-UAP-PR002 · Local Law Enforcement · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023412"
+        "url": "https://www.dvidshub.net/video/1023412",
+        "dvidsId": "1023412"
       },
       "reviewStatus": "extracted"
     },
@@ -5474,7 +5603,8 @@
       "summaryBy": "official",
       "citation": "LLE-UAP-PR003 · Local Law Enforcement · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023414"
+        "url": "https://www.dvidshub.net/video/1023414",
+        "dvidsId": "1023414"
       },
       "reviewStatus": "extracted"
     },
@@ -5490,7 +5620,8 @@
       "summaryBy": "official",
       "citation": "LLE-UAP-PR004 · Local Law Enforcement · war.gov PURSUE release of 2026-09-18",
       "media": {
-        "url": "https://www.dvidshub.net/video/1023416"
+        "url": "https://www.dvidshub.net/video/1023416",
+        "dvidsId": "1023416"
       },
       "reviewStatus": "extracted"
     },
@@ -5506,7 +5637,8 @@
       "summaryBy": "official",
       "citation": "NASA-UAP-D008 · NASA · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007870"
+        "url": "https://www.dvidshub.net/video/1007870",
+        "dvidsId": "1007870"
       },
       "reviewStatus": "extracted"
     },
@@ -5522,7 +5654,8 @@
       "summaryBy": "official",
       "citation": "NASA-UAP-D014 · NASA · war.gov PURSUE release of 2026-05-22",
       "media": {
-        "url": "https://www.dvidshub.net/video/1007878"
+        "url": "https://www.dvidshub.net/video/1007878",
+        "dvidsId": "1007878"
       },
       "reviewStatus": "extracted"
     },
@@ -5621,7 +5754,8 @@
       "summaryBy": "official",
       "citation": "NASA-UAP-D026 · NASA · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014107"
+        "url": "https://www.dvidshub.net/video/1014107",
+        "dvidsId": "1014107"
       },
       "reviewStatus": "extracted"
     },
@@ -5637,7 +5771,8 @@
       "summaryBy": "official",
       "citation": "NASA-UAP-D027 · NASA · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014110"
+        "url": "https://www.dvidshub.net/video/1014110",
+        "dvidsId": "1014110"
       },
       "reviewStatus": "extracted"
     },
@@ -5653,7 +5788,8 @@
       "summaryBy": "official",
       "citation": "NASA-UAP-D028 · NASA · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014116"
+        "url": "https://www.dvidshub.net/video/1014116",
+        "dvidsId": "1014116"
       },
       "reviewStatus": "extracted"
     },
@@ -5669,7 +5805,8 @@
       "summaryBy": "official",
       "citation": "NASA-UAP-D029 · NASA · war.gov PURSUE release of 2026-07-10",
       "media": {
-        "url": "https://www.dvidshub.net/video/1014117"
+        "url": "https://www.dvidshub.net/video/1014117",
+        "dvidsId": "1014117"
       },
       "reviewStatus": "extracted"
     },

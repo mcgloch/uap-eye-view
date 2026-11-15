@@ -3573,5 +3573,12 @@
   "American Alchemy": "American Alchemy",
   "Summary: the releasing agency’s own description": "概要：公開した機関自身による説明",
   "Not yet reviewed: built by machine from the release": "未確認：公開資料から機械的に作成",
-  "US government records from war.gov · sample pins": "war.gov の米国政府記録 · サンプルのピン"
+  "US government records from war.gov · sample pins": "war.gov の米国政府記録 · サンプルのピン",
+  "Video: {title}": "動画：{title}",
+  "Close video": "動画を閉じる",
+  "Video hosted by DVIDS, the U.S. military media service": "動画は米軍のメディア配信サービス DVIDS がホストしています",
+  "Open on DVIDS ↗": "DVIDS で開く ↗",
+  "Open the document ↗": "文書を開く ↗",
+  "Click the card to play the video": "カードをクリックして動画を再生",
+  "Play the video for {title}": "{title} の動画を再生"
 }

@@ -256,7 +256,8 @@
     "1 min/s",
     "Status",
     "Flying Saucer Review",
-    "American Alchemy"
+    "American Alchemy",
+    "Video: {title}"
   ],
   "es": [
     "1 min/s",
@@ -858,7 +859,8 @@
     "{count} datasets",
     "ZOOM",
     "Flying Saucer Review",
-    "American Alchemy"
+    "American Alchemy",
+    "Video: {title}"
   ],
   "ja": [
     "1090 MHz",
@@ -1295,7 +1297,8 @@
     "MMSI: {id}",
     "Status",
     "Flying Saucer Review",
-    "American Alchemy"
+    "American Alchemy",
+    "Video: {title}"
   ],
   "uk": [
     "1900–1945",

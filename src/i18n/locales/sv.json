@@ -3661,5 +3661,12 @@
   "American Alchemy": "American Alchemy",
   "Summary: the releasing agency’s own description": "Sammanfattning: den publicerande myndighetens egen beskrivning",
   "Not yet reviewed: built by machine from the release": "Ännu inte granskad: maskinellt framtagen ur publiceringen",
-  "US government records from war.gov · sample pins": "Amerikanska myndighetsuppgifter från war.gov · exempelnålar"
+  "US government records from war.gov · sample pins": "Amerikanska myndighetsuppgifter från war.gov · exempelnålar",
+  "Video: {title}": "Video: {title}",
+  "Close video": "Stäng videon",
+  "Video hosted by DVIDS, the U.S. military media service": "Videon ligger hos DVIDS, den amerikanska militärens medietjänst",
+  "Open on DVIDS ↗": "Öppna på DVIDS ↗",
+  "Open the document ↗": "Öppna dokumentet ↗",
+  "Click the card to play the video": "Klicka på kortet för att spela upp videon",
+  "Play the video for {title}": "Spela upp videon för {title}"
 }

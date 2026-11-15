@@ -25,6 +25,7 @@ const SHOWN_STATUSES = new Set(['placeholder', 'published']);
 export const SUMMARY_AUTHORS = Object.freeze(['ours', 'official']);
 const MAX_SUMMARY_LENGTH = 400;
 const YOUTUBE_ID = /^[A-Za-z0-9_-]{11}$/;
+const DVIDS_ID = /^\d{1,12}$/;
 
 const text = (value, max = 200) =>
   typeof value === 'string' && value.trim() ? value.trim().slice(0, max) : null;
@@ -55,7 +56,10 @@ export function parseSightingDate(value) {
   };
 }
 
-/** Media is linked, never copied: a YouTube id and start second, or an https URL. */
+/**
+ * Media is linked, never copied: a YouTube id and start second, or an https
+ * URL to the released file, with the DVIDS video id when the release has one.
+ */
 function normalizeMedia(media) {
   if (!media || typeof media !== 'object') return null;
   if (typeof media.youtubeId === 'string' && YOUTUBE_ID.test(media.youtubeId)) {
@@ -65,15 +69,18 @@ function normalizeMedia(media) {
       startSeconds: Number.isInteger(start) && start > 0 ? start : 0,
     };
   }
+  const out = {};
   if (typeof media.url === 'string') {
     try {
       const url = new URL(media.url);
-      if (url.protocol === 'https:') return { url: url.href };
+      if (url.protocol === 'https:') out.url = url.href;
     } catch {
-      return null;
+      // Not a URL: the record simply has no link.
     }
   }
-  return null;
+  if (DVIDS_ID.test(String(media.dvidsId ?? '')))
+    out.dvidsId = String(media.dvidsId);
+  return out.url || out.dvidsId ? out : null;
 }
 
 /**
@@ -152,5 +159,8 @@ export function mediaLink(record) {
     return `https://www.youtube.com/watch?v=${media.youtubeId}${
       media.startSeconds ? `&t=${media.startSeconds}s` : ''
     }`;
-  return media.url || null;
+  if (media.url) return media.url;
+  return media.dvidsId
+    ? `https://www.dvidshub.net/video/${media.dvidsId}`
+    : null;
 }

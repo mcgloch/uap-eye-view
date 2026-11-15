@@ -3573,5 +3573,12 @@
   "American Alchemy": "American Alchemy",
   "Summary: the releasing agency’s own description": "摘要：發布機構自己的說明",
   "Not yet reviewed: built by machine from the release": "尚未審核：依公開資料自動產生",
-  "US government records from war.gov · sample pins": "來自 war.gov 的美國政府紀錄 · 範例標記"
+  "US government records from war.gov · sample pins": "來自 war.gov 的美國政府紀錄 · 範例標記",
+  "Video: {title}": "影片：{title}",
+  "Close video": "關閉影片",
+  "Video hosted by DVIDS, the U.S. military media service": "影片由美國軍方媒體服務 DVIDS 代管",
+  "Open on DVIDS ↗": "在 DVIDS 上開啟 ↗",
+  "Open the document ↗": "開啟文件 ↗",
+  "Click the card to play the video": "點擊卡片播放影片",
+  "Play the video for {title}": "播放 {title} 的影片"
 }

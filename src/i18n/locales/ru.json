@@ -3837,5 +3837,12 @@
   "American Alchemy": "American Alchemy",
   "Summary: the releasing agency’s own description": "Описание: собственное описание ведомства, опубликовавшего файл",
   "Not yet reviewed: built by machine from the release": "Ещё не проверено: составлено автоматически по публикации",
-  "US government records from war.gov · sample pins": "Материалы правительства США с war.gov · пробные метки"
+  "US government records from war.gov · sample pins": "Материалы правительства США с war.gov · пробные метки",
+  "Video: {title}": "Видео: {title}",
+  "Close video": "Закрыть видео",
+  "Video hosted by DVIDS, the U.S. military media service": "Видео размещено на DVIDS, медиасервисе вооружённых сил США",
+  "Open on DVIDS ↗": "Открыть на DVIDS ↗",
+  "Open the document ↗": "Открыть документ ↗",
+  "Click the card to play the video": "Нажмите на карточку, чтобы воспроизвести видео",
+  "Play the video for {title}": "Воспроизвести видео: {title}"
 }

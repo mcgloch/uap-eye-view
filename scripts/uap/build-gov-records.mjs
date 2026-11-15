@@ -301,6 +301,10 @@ export function buildGovRecords(rows, places, readings) {
     const release = isoRelease(row['Release Date']);
     const citation = `${docId || row.Title} · ${row.Agency} · war.gov PURSUE release of ${release}`;
     const link = officialLink(row);
+    // The release's video, when it has one: played in the app from DVIDS.
+    const dvidsId = /^\d+$/.test(row['DVIDS Video ID'])
+      ? row['DVIDS Video ID']
+      : null;
     const incidents = read.length ? read : [{}];
     for (const incident of incidents) {
       const placed = Number.isFinite(incident.lat);
@@ -340,7 +344,14 @@ export function buildGovRecords(rows, places, readings) {
             : officialSummary(row['Description Blurb'], row.Title),
           summaryBy: incident.summary ? 'ours' : 'official',
           citation,
-          ...(link ? { media: { url: link } } : {}),
+          ...(link || dvidsId
+            ? {
+                media: {
+                  ...(link ? { url: link } : {}),
+                  ...(dvidsId ? { dvidsId } : {}),
+                },
+              }
+            : {}),
           reviewStatus: 'extracted',
         },
       });

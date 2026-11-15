@@ -82,3 +82,11 @@ test('a long summary wraps onto several card lines of whole words', () => {
   assert.ok(details.length > 6);
   assert.deepEqual(wrapLines(''), []);
 });
+
+test('a record with a released video invites playing it', () => {
+  const { details, link } = describeSighting(
+    record({ media: { url: 'https://www.war.gov/a.pdf', dvidsId: '7' } }),
+  );
+  assert.equal(details.at(-1), 'Click the card to play the video');
+  assert.equal(link, 'https://www.war.gov/a.pdf');
+});

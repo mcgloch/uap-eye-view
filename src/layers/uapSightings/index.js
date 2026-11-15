@@ -73,6 +73,7 @@ export function createUapSightingsLayer({
   picking = null,
   pointer = null,
   openExternal = null,
+  videoPlayer = null,
   createMarkers = (scene) =>
     new Cesium.BillboardCollection({
       scene,
@@ -95,6 +96,7 @@ export function createUapSightingsLayer({
   let _selectedId = null;
   let _selectedCardId = null;
   let _selectedLink = null;
+  let _selectedVideo = null;
   let _sources = [...UAP_SOURCES];
   let _period = { from: null, to: null };
   let _extent = null;
@@ -189,10 +191,14 @@ export function createUapSightingsLayer({
     }
     const { title, details, link } = describeSighting(record);
     _selectedLink = link && openExternal ? link : null;
+    _selectedVideo =
+      videoPlayer && record.media?.dvidsId
+        ? { dvidsId: record.media.dvidsId, title, documentUrl: link }
+        : null;
     const card = {
       id: `uap-sighting-card:${record.id}`,
       selected: true,
-      interactive: Boolean(_selectedLink),
+      interactive: Boolean(_selectedLink || _selectedVideo),
       title,
       details,
       accent: SOURCE_COLORS[record.source],
@@ -205,10 +211,11 @@ export function createUapSightingsLayer({
       position: Cesium.Cartesian3.fromDegrees(record.lon, record.lat),
     };
     if (card.interactive) {
-      const target = _selectedLink;
-      card.accessibilityLabel = t('Open the source for {title}', { title });
+      card.accessibilityLabel = _selectedVideo
+        ? t('Play the video for {title}', { title })
+        : t('Open the source for {title}', { title });
       card.activate = () => {
-        openExternal(target);
+        activateSelection();
         return true;
       };
     }
@@ -221,7 +228,15 @@ export function createUapSightingsLayer({
     overlayHost.setVisible?.(UAP_SIGHTINGS_OVERLAY_SOURCE_ID, true);
   }
 
+  /** Play the selected record's video in the app, else open its source. */
+  function activateSelection() {
+    if (_selectedVideo && videoPlayer.open(_selectedVideo)) return;
+    if (_selectedLink) openExternal(_selectedLink);
+  }
+
   function clearSelection() {
+    videoPlayer?.close();
+    _selectedVideo = null;
     _selectedId = null;
     _selectedCardId = null;
     _selectedLink = null;
@@ -256,7 +271,7 @@ export function createUapSightingsLayer({
         { sourceId: UAP_SIGHTINGS_OVERLAY_SOURCE_ID },
       );
       if (cardHit && cardHit.entryId === _selectedCardId) {
-        if (_selectedLink) openExternal(_selectedLink);
+        activateSelection();
         return;
       }
       const picked = _viewer.scene.pick(click.position);

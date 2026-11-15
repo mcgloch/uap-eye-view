@@ -1,5 +1,6 @@
 import * as Cesium from 'cesium';
 import { createUapSightingsLayer } from '../../layers/uapSightings/index.js';
+import { createSightingVideoPlayer } from '../../layers/uapSightings/videoPlayer.js';
 import * as picking from '../../data/pickRegistry.js';
 import * as overlays from '../../overlays/worldOverlay.js';
 import { isPointerFree } from '../../data/inputOwnership.js';
@@ -14,6 +15,7 @@ export function createApplicationUapSightings(options) {
       hitTest: overlays.hitTestWorldOverlay,
     },
     openExternal: (url) => window.open(url, '_blank', 'noopener,noreferrer'),
+    videoPlayer: createSightingVideoPlayer(),
     screenSpaceEventHandlerFactory: (viewer) =>
       new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas),
     picking,

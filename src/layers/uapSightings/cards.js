@@ -77,9 +77,11 @@ export function describeSighting(record) {
   const link = mediaLink(record);
   if (link)
     details.push(
-      record.media.youtubeId
-        ? t('Click the card to open the video ↗')
-        : t('Click the card to open the source ↗'),
+      record.media.dvidsId
+        ? t('Click the card to play the video')
+        : record.media.youtubeId
+          ? t('Click the card to open the video ↗')
+          : t('Click the card to open the source ↗'),
     );
   return {
     title: `${t('UAP sighting')} · ${record.placeName}`,

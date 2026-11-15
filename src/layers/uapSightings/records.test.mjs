@@ -160,3 +160,21 @@ test('the bundled source hides unreviewed government records unless previewing',
     ),
   );
 });
+
+test('a released video keeps its DVIDS id beside the link to the file', () => {
+  const both = normalizeSighting(
+    row({ media: { url: 'https://www.war.gov/a.pdf', dvidsId: '1006056' } }),
+  );
+  assert.deepEqual(both.media, {
+    url: 'https://www.war.gov/a.pdf',
+    dvidsId: '1006056',
+  });
+  assert.equal(mediaLink(both), 'https://www.war.gov/a.pdf');
+  const videoOnly = normalizeSighting(row({ media: { dvidsId: 1006056 } }));
+  assert.deepEqual(videoOnly.media, { dvidsId: '1006056' });
+  assert.equal(mediaLink(videoOnly), 'https://www.dvidshub.net/video/1006056');
+  assert.equal(
+    normalizeSighting(row({ media: { dvidsId: '12/../x' } })).media,
+    null,
+  );
+});

@@ -21,7 +21,7 @@ const sighting = (id, extra = {}) => ({
   ...extra,
 });
 
-function harness(rows, version = 'v1') {
+function harness(rows, version = 'v1', { videoPlayer = null } = {}) {
   const markers = {
     show: true,
     billboards: [],
@@ -83,6 +83,7 @@ function harness(rows, version = 'v1') {
     picking,
     pointer: { isPointerFree: () => true },
     openExternal: (url) => opened.push(url),
+    videoPlayer,
   });
   layer.init(viewer);
   return {
@@ -210,5 +211,60 @@ test('a click opens the card; filtering the sighting out closes it', async () =>
   h.click('a');
   h.click(null);
   assert.deepEqual(h.lastCard(), []);
+  h.layer.destroy();
+});
+
+test('a card with a released video plays it in the app, else opens the source', async () => {
+  const played = [];
+  let closes = 0;
+  let playable = true;
+  const videoPlayer = {
+    open(video) {
+      if (playable) played.push(video);
+      return playable;
+    },
+    close() {
+      closes++;
+    },
+  };
+  const h = harness(
+    [
+      sighting('a', {
+        media: { url: 'https://www.war.gov/a.pdf', dvidsId: '1006056' },
+      }),
+      sighting('b', { media: { url: 'https://www.war.gov/b.pdf' } }),
+    ],
+    'v1',
+    { videoPlayer },
+  );
+  h.layer.enable();
+  await h.layer.update();
+  h.click('a');
+  const [card] = h.lastCard();
+  assert.equal(card.interactive, true);
+  assert.equal(card.accessibilityLabel, 'Play the video for UAP sighting · a');
+  assert.equal(card.activate(), true);
+  assert.deepEqual(played, [
+    {
+      dvidsId: '1006056',
+      title: 'UAP sighting · a',
+      documentUrl: 'https://www.war.gov/a.pdf',
+    },
+  ]);
+  assert.deepEqual(h.opened, []);
+  // When the player cannot open (no page, Pinokio), the source opens instead.
+  playable = false;
+  card.activate();
+  assert.deepEqual(h.opened, ['https://www.war.gov/a.pdf']);
+  // A record without a video still opens its source; leaving closes the player.
+  h.click('b');
+  h.lastCard()[0].activate();
+  assert.deepEqual(h.opened, [
+    'https://www.war.gov/a.pdf',
+    'https://www.war.gov/b.pdf',
+  ]);
+  const before = closes;
+  h.click(null);
+  assert.ok(closes > before);
   h.layer.destroy();
 });
