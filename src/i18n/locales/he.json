@@ -3735,7 +3735,6 @@
   "Hide sightings from this source": "הסתרת התצפיות ממקור זה",
   "Show sightings from this source": "הצגת התצפיות ממקור זה",
   "UAP sightings unavailable": "תצפיות UAP אינן זמינות",
-  "Sample pins · not yet from the project sources": "סימונים לדוגמה · עדיין לא ממקורות הפרויקט",
   "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "הצבע מציין את המקור. סימון מלא הוא אתר ידוע, סימון חיוור הוא מיקום משוער וטבעת מקווקוות היא מיקום משוער מאוד. הכרטיסים מוסרים את דברי העדים ואינם טוענים דבר על טיבו של העצם. לחצו על סימון כדי לפתוח את הכרטיס שלו.",
   "UAP sightings": "תצפיות UAP",
   "Sightings": "תצפיות",
@@ -3747,5 +3746,8 @@
     "other": "{count} תצפיות"
   },
   "Flying Saucer Review": "Flying Saucer Review",
-  "American Alchemy": "American Alchemy"
+  "American Alchemy": "American Alchemy",
+  "Summary: the releasing agency’s own description": "תקציר: התיאור של הגוף המפרסם עצמו",
+  "Not yet reviewed: built by machine from the release": "טרם נבדק: נוצר אוטומטית מתוך הפרסום",
+  "US government records from war.gov · sample pins": "רשומות ממשלת ארצות הברית מ-war.gov · סימונים לדוגמה"
 }

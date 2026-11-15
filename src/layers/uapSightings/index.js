@@ -360,7 +360,7 @@ export function createUapSightingsLayer({
     id: UAP_SIGHTINGS_LAYER_ID,
     name: 'UAP sightings',
     icon: '🛸',
-    source: 'Sample pins',
+    source: 'war.gov · sample pins',
     // The records ship with the app, so this only reloads after a restart.
     updateInterval: 24 * 60 * 60 * 1000,
 
@@ -481,7 +481,7 @@ export function createUapSightingsLayer({
             count: formatNumber(counts[name]),
           }),
         })),
-        info: t('Sample pins · not yet from the project sources'),
+        info: t('US government records from war.gov · sample pins'),
         infoTitle: t(
           'Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.',
         ),

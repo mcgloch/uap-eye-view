@@ -3822,7 +3822,6 @@
   "Hide sightings from this source": "Приховати спостереження з цього джерела",
   "Show sightings from this source": "Показати спостереження з цього джерела",
   "UAP sightings unavailable": "Спостереження НЛО недоступні",
-  "Sample pins · not yet from the project sources": "Пробні мітки · ще не з джерел проєкту",
   "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "Колір показує джерело. Суцільна мітка — відома точка, бліда — приблизне місце, пунктирне кільце — дуже приблизне. Картки передають слова очевидців і не стверджують, чим був об'єкт. Натисніть мітку, щоб відкрити картку.",
   "UAP sightings": "Спостереження НЛО",
   "Sightings": "Спостереження",
@@ -3835,5 +3834,8 @@
     "other": "{count} спостереження"
   },
   "Flying Saucer Review": "Flying Saucer Review",
-  "American Alchemy": "American Alchemy"
+  "American Alchemy": "American Alchemy",
+  "Summary: the releasing agency’s own description": "Опис: власний опис відомства, яке оприлюднило файл",
+  "Not yet reviewed: built by machine from the release": "Ще не перевірено: складено автоматично за публікацією",
+  "US government records from war.gov · sample pins": "Матеріали уряду США з war.gov · пробні мітки"
 }

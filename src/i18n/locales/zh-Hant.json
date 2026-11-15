@@ -3561,7 +3561,6 @@
   "Hide sightings from this source": "隱藏此來源的目擊紀錄",
   "Show sightings from this source": "顯示此來源的目擊紀錄",
   "UAP sightings unavailable": "UAP 目擊紀錄無法使用",
-  "Sample pins · not yet from the project sources": "範例標記 · 尚非來自專案來源",
   "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "顏色表示來源。實心標記為已知地點，淺色標記為大致位置，虛線圓環為非常粗略的位置。卡片只轉述目擊者的說法，不對物體是什麼作出判斷。點擊標記可開啟卡片。",
   "UAP sightings": "UAP 目擊紀錄",
   "Sightings": "目擊紀錄",
@@ -3571,5 +3570,8 @@
     "other": "{count} 筆目擊"
   },
   "Flying Saucer Review": "Flying Saucer Review",
-  "American Alchemy": "American Alchemy"
+  "American Alchemy": "American Alchemy",
+  "Summary: the releasing agency’s own description": "摘要：發布機構自己的說明",
+  "Not yet reviewed: built by machine from the release": "尚未審核：依公開資料自動產生",
+  "US government records from war.gov · sample pins": "來自 war.gov 的美國政府紀錄 · 範例標記"
 }

@@ -21,6 +21,8 @@ export const REVIEW_STATUSES = Object.freeze([
 ]);
 
 const SHOWN_STATUSES = new Set(['placeholder', 'published']);
+/** Who wrote the summary: us, or the releasing agency's own description. */
+export const SUMMARY_AUTHORS = Object.freeze(['ours', 'official']);
 const MAX_SUMMARY_LENGTH = 400;
 const YOUTUBE_ID = /^[A-Za-z0-9_-]{11}$/;
 
@@ -99,34 +101,43 @@ export function normalizeSighting(raw) {
     date: when.date,
     datePrecision: when.precision,
     year: when.year,
+    // The source's own wording when it gives a range or a loose date.
+    dateAsStated: text(raw.dateAsStated, 80),
     placeName,
     lat,
     lon,
     locationConfidence: raw.locationConfidence,
     summary,
+    summaryBy: SUMMARY_AUTHORS.includes(raw.summaryBy) ? raw.summaryBy : 'ours',
     citation: text(raw.citation),
     media: normalizeMedia(raw.media),
     reviewStatus: raw.reviewStatus,
   };
 }
 
-/** Whether a record may be drawn: nothing still in review goes on the map. */
-export function isShowable(record) {
-  return SHOWN_STATUSES.has(record?.reviewStatus);
+/**
+ * Whether a record may be drawn: nothing still in review goes on the map.
+ * `preview` (development only) also shows records awaiting review.
+ */
+export function isShowable(record, { preview = false } = {}) {
+  if (SHOWN_STATUSES.has(record?.reviewStatus)) return true;
+  return preview && REVIEW_STATUSES.includes(record?.reviewStatus);
 }
 
 /**
  * Valid, showable records with unique ids, in the order given.
  * @param {unknown} rows
+ * @param {{preview?: boolean}} [options]
  * @returns {object[]}
  */
-export function normalizeSightings(rows) {
+export function normalizeSightings(rows, options) {
   if (!Array.isArray(rows)) return [];
   const seen = new Set();
   const out = [];
   for (const row of rows) {
     const record = normalizeSighting(row);
-    if (!record || !isShowable(record) || seen.has(record.id)) continue;
+    if (!record || !isShowable(record, options) || seen.has(record.id))
+      continue;
     seen.add(record.id);
     out.push(record);
   }

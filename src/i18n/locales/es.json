@@ -3735,7 +3735,6 @@
   "Hide sightings from this source": "Ocultar los avistamientos de esta fuente",
   "Show sightings from this source": "Mostrar los avistamientos de esta fuente",
   "UAP sightings unavailable": "Avistamientos de FANI no disponibles",
-  "Sample pins · not yet from the project sources": "Marcadores de muestra · aún no proceden de las fuentes del proyecto",
   "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "El color indica la fuente. Un marcador relleno es un lugar conocido, uno tenue es aproximado y un anillo discontinuo es muy aproximado. Las tarjetas recogen lo que dijeron los testigos y no afirman qué era el objeto. Haz clic en un marcador para ver su tarjeta.",
   "UAP sightings": "Avistamientos de FANI",
   "Sightings": "Avistamientos",
@@ -3747,5 +3746,8 @@
     "other": "{count} avistamientos"
   },
   "Flying Saucer Review": "Flying Saucer Review",
-  "American Alchemy": "American Alchemy"
+  "American Alchemy": "American Alchemy",
+  "Summary: the releasing agency’s own description": "Resumen: descripción de la propia agencia que publica el archivo",
+  "Not yet reviewed: built by machine from the release": "Aún sin revisar: generado automáticamente a partir de la publicación",
+  "US government records from war.gov · sample pins": "Registros del Gobierno de EE. UU. de war.gov · marcadores de muestra"
 }

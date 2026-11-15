@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { describeSighting, formatSightingDate } from './cards.js';
+import { describeSighting, formatSightingDate, wrapLines } from './cards.js';
 import { normalizeSighting } from './records.js';
 
 const record = (extra = {}) =>
@@ -50,4 +50,35 @@ test('a placeholder says so, and a video adds its link', () => {
   );
   assert.equal(details.at(-1), 'Click the card to open the video ↗');
   assert.equal(link, 'https://www.youtube.com/watch?v=abcdefghijk&t=30s');
+});
+
+test('an unreviewed record with an official summary and a loose date says so', () => {
+  const { details } = describeSighting(
+    record({
+      date: '1965-06',
+      dateAsStated: 'June 3-7, 1965',
+      summaryBy: 'official',
+      reviewStatus: 'extracted',
+    }),
+  );
+  assert.equal(details[0], 'June 3-7, 1965');
+  assert.ok(
+    details.includes('Summary: the releasing agency’s own description'),
+  );
+  assert.ok(
+    details.includes('Not yet reviewed: built by machine from the release'),
+  );
+});
+
+test('a long summary wraps onto several card lines of whole words', () => {
+  const summary = Array.from({ length: 40 }, (_, index) => `word${index}`).join(
+    ' ',
+  );
+  const lines = wrapLines(summary, 30);
+  assert.ok(lines.length > 5);
+  assert.ok(lines.every((line) => line.length <= 30));
+  assert.equal(lines.join(' '), summary);
+  const { details } = describeSighting(record({ summary }));
+  assert.ok(details.length > 6);
+  assert.deepEqual(wrapLines(''), []);
 });

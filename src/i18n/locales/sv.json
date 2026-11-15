@@ -3648,7 +3648,6 @@
   "Hide sightings from this source": "Dölj observationer från den här källan",
   "Show sightings from this source": "Visa observationer från den här källan",
   "UAP sightings unavailable": "UAP-observationer är inte tillgängliga",
-  "Sample pins · not yet from the project sources": "Exempelnålar · ännu inte från projektets källor",
   "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "Färgen visar källan. En fylld markör är en känd plats, en blek är ungefärlig och en streckad ring är mycket ungefärlig. Korten återger vad vittnen har sagt och påstår inget om vad föremålet var. Klicka på en markör för att öppna kortet.",
   "UAP sightings": "UAP-observationer",
   "Sightings": "Observationer",
@@ -3659,5 +3658,8 @@
     "other": "{count} observationer"
   },
   "Flying Saucer Review": "Flying Saucer Review",
-  "American Alchemy": "American Alchemy"
+  "American Alchemy": "American Alchemy",
+  "Summary: the releasing agency’s own description": "Sammanfattning: den publicerande myndighetens egen beskrivning",
+  "Not yet reviewed: built by machine from the release": "Ännu inte granskad: maskinellt framtagen ur publiceringen",
+  "US government records from war.gov · sample pins": "Amerikanska myndighetsuppgifter från war.gov · exempelnålar"
 }

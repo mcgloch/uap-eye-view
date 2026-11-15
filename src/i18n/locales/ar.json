@@ -3996,7 +3996,6 @@
   "Hide sightings from this source": "إخفاء المشاهدات من هذا المصدر",
   "Show sightings from this source": "إظهار المشاهدات من هذا المصدر",
   "UAP sightings unavailable": "مشاهدات الظواهر الجوية المجهولة غير متاحة",
-  "Sample pins · not yet from the project sources": "علامات تجريبية · ليست بعد من مصادر المشروع",
   "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "يدل اللون على المصدر. العلامة المصمتة مكان معروف، والباهتة موقع تقريبي، والحلقة المتقطعة موقع تقريبي جدًا. تنقل البطاقات ما قاله الشهود ولا تزعم شيئًا عن ماهية الجسم. انقر على علامة لفتح بطاقتها.",
   "UAP sightings": "مشاهدات الظواهر الجوية المجهولة",
   "Sightings": "المشاهدات",
@@ -4011,5 +4010,8 @@
     "other": "{count} مشاهدة"
   },
   "Flying Saucer Review": "Flying Saucer Review",
-  "American Alchemy": "American Alchemy"
+  "American Alchemy": "American Alchemy",
+  "Summary: the releasing agency’s own description": "الملخص: وصف الجهة الناشرة نفسها",
+  "Not yet reviewed: built by machine from the release": "لم يُراجَع بعد: أُنشئ آليًا من المواد المنشورة",
+  "US government records from war.gov · sample pins": "سجلات الحكومة الأمريكية من war.gov · علامات تجريبية"
 }

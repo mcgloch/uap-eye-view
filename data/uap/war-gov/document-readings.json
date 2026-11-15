@@ -1,0 +1,360 @@
+{
+  "_about": "Facts read from the released PDFs themselves, keyed by document id. They replace the index's coarse date and place for that document. Each was read by an AI model from the scanned pages and has NOT been checked by a person; 'note' records doubts. Summaries are in our own words and name no individual. A document with 'notSighting' is left off the map.",
+  "DOW-UAP-D155": [
+    {
+      "date": "1957-01-18",
+      "placeName": "Over north-eastern Saudi Arabia, about 27°N 47°E",
+      "lat": 27,
+      "lon": 47,
+      "locationConfidence": "medium",
+      "summary": "A bomber crew on a night mission reported that their tail-gunnery radar showed an unidentified return holding at about 6,000 yards for roughly five to seven minutes, until the bomber banked and the return left the scope.",
+      "note": "Coordinates are stated in whole degrees and called approximate. Radar only; no visual observation."
+    }
+  ],
+  "DOW-UAP-D156": [
+    {
+      "date": "1956-12-31",
+      "placeName": "Over north-western Guam, near the radio range holding pattern",
+      "lat": 13.56,
+      "lon": 144.78,
+      "locationConfidence": "medium",
+      "summary": "A fighter-interceptor pilot in a holding pattern at night reported a single round, blinking white light that turned with his aircraft, climbed, and circled him twice while he was unable to close on it. The encounter lasted about ten minutes.",
+      "note": "Position estimated from a hand-drawn sketch map in the report. The time is 1610Z, which is early on 1 January 1957 local time."
+    }
+  ],
+  "DOW-UAP-D157": [
+    {
+      "date": "1952-08-27",
+      "placeName": "Sassari, Sardinia, Italy",
+      "lat": 40.75,
+      "lon": 8.55,
+      "locationConfidence": "high",
+      "summary": "A civilian professor walking in a courtyard at night reported a very bright blue-green sphere, appearing slightly larger than the full moon, crossing the sky from east to west before vanishing toward the horizon. It lasted an estimated three to five seconds.",
+      "note": "The cover page says 28 August 1952; the witness account says the evening of 27 August. Coordinates are the observer's position as stated in the report."
+    }
+  ],
+  "DOW-UAP-D158": [
+    {
+      "date": "1953-11-08",
+      "placeName": "Prince George Airport, British Columbia, Canada",
+      "lat": 53.889,
+      "lon": -122.679,
+      "locationConfidence": "high",
+      "summary": "Two military policemen guarding a parked aircraft at night reported a round, blinking white light with a blue tint that descended to roughly 150 feet above the ground, hovered, rose, hovered again, then climbed away to the west. It was in sight for about four minutes.",
+      "note": "Faint typescript. The date is in Zulu time (03:15Z on 8 November), which is the evening of 7 November local time. Pinned at the named airport; the grid reference in the report could not be decoded reliably."
+    }
+  ],
+  "DOW-UAP-D159": [
+    {
+      "date": "1953-08-10",
+      "placeName": "About 37 km west of Genthin, Saxony-Anhalt, Germany",
+      "lat": 52.4,
+      "lon": 11.6,
+      "locationConfidence": "high",
+      "summary": "The pilot of a civil airliner reported a stationary red light at an estimated 5,000 to 5,500 feet. Air traffic control logged that Soviet authorities were asked about it and could not account for it.",
+      "note": "Position computed from the stated coordinates of Genthin, offset 20 nautical miles west as the log describes."
+    },
+    {
+      "date": "1953-08-10",
+      "placeName": "Central Berlin air corridor, East Germany",
+      "lat": 52.4,
+      "lon": 12.2,
+      "locationConfidence": "low",
+      "summary": "The crew of a civil airliner inbound to Berlin reported what looked like red rockets being fired about one mile ahead of their aircraft.",
+      "note": "The log gives no position along the corridor; the pin is only indicative. Described as apparent rockets rather than an object. A third log entry, about ground-to-air firing on 7 August 1953, is left out."
+    }
+  ],
+  "DOW-UAP-D160": [
+    {
+      "date": "1953-12-16",
+      "placeName": "Mediterranean Sea, north-east of Saïdia, Morocco",
+      "lat": 35.583,
+      "lon": -1.75,
+      "locationConfidence": "medium",
+      "summary": "Operators at a ground radar station reported a line of returns, varying from one to twelve per sweep and changing shape, that stayed comparatively stationary and faded out after several minutes. The reporting unit suggested propagation effects, jamming or migrating birds as possible causes.",
+      "note": "Radar only. Position decoded from the grid reference the report gives as approximate; the decoded point does not exactly match the stated bearing and range, so confidence is set to medium."
+    }
+  ],
+  "DOW-UAP-D161": [
+    {
+      "date": "1953-10-08",
+      "placeName": "Southern tip of Big Diomede Island, Russia (seen from Little Diomede, Alaska)",
+      "lat": 65.7833,
+      "lon": -169.05,
+      "locationConfidence": "high",
+      "summary": "A local resident standing in Little Diomede village reported a brief light, likened to a large flashlight or spotlight, on the southern tip of Big Diomede about 2.5 miles away. It lasted several seconds and did not reappear.",
+      "note": "Coordinates as stated in the report. The report gives two slightly different times and itself suggests it may have been a ground light."
+    }
+  ],
+  "DOW-UAP-D162": [
+    {
+      "date": "1953-12-01",
+      "placeName": "Gambell, St. Lawrence Island, Alaska, USA",
+      "lat": 63.8333,
+      "lon": -171.6,
+      "locationConfidence": "high",
+      "summary": "A local National Guard member standing outside the village school reported a stationary, flashlight-coloured light on the western horizon over the sea. It was visible for about five minutes and then went out abruptly.",
+      "note": "Pinned at the observer's stated position; the light was out to sea at an unknown distance. The report notes a ship is a possibility."
+    }
+  ],
+  "DOW-UAP-D163": [
+    {
+      "date": "1953-12-17",
+      "placeName": "Over Hässleholm, Skåne, Sweden",
+      "lat": 56.159,
+      "lon": 13.766,
+      "locationConfidence": "medium",
+      "summary": "The crew of a civil airliner at about 2,150 metres reported a shiny metallic, nearly round object passing roughly 600 metres below them in the opposite direction, just above the cloud tops. It was in view for six to seven seconds.",
+      "note": "The account is a translated newspaper article forwarded by an air attaché. Pinned at the named town."
+    }
+  ],
+  "DOW-UAP-D164": [
+    {
+      "date": "1953-12",
+      "placeName": "Just north of Seymour, Indiana, USA",
+      "lat": 39.05,
+      "lon": -85.8167,
+      "locationConfidence": "high",
+      "summary": "Two civilians in a car reported two large white, cloudy ring-shaped objects, each with four bright rotating points of light, that approached from the north, hovered silently and then left at very high speed toward the south-west. The observation lasted a few minutes.",
+      "note": "The observers could not remember the exact date; December 1953 is inferred from the week of weather data in the report. The report writes the longitude as East, read here as West."
+    }
+  ],
+  "DOW-UAP-D166": [
+    {
+      "notSighting": "Five technical concept papers; no individual sighting is described."
+    }
+  ],
+  "DOW-UAP-D176": [
+    {
+      "summary": "Federal law enforcement agents at a hilltop observation post reported a matte black, silent triangular object that rose vertically over a ridge line to the west, hovered, then moved off very fast into a canyon. It was also viewed through a handheld thermal device.",
+      "note": "The day, month and location are redacted in the document, so the index's date and region are kept. Very likely the same incident as FBI-UAP-D043; the two differ on the time and duration."
+    }
+  ],
+  "FBI-UAP-D043": [
+    {
+      "summary": "Federal agents at an observation post reported a dark, nonreflective triangular object, first noticed on a thermal device, that rose vertically above a ridge line to the west and then flew off horizontally at high speed into lower terrain. They reported no sound.",
+      "note": "The day, month and location are redacted in the document, so the index's date and region are kept. Very likely the same incident as DOW-UAP-D176."
+    }
+  ],
+  "DOW-UAP-D177": [
+    {
+      "date": "1955-03-15",
+      "placeName": "Avalon, Santa Catalina Island, California, USA",
+      "lat": 33.3428,
+      "lon": -118.3282,
+      "locationConfidence": "medium",
+      "summary": "A civilian on the ground reported a single round, very bright object, shifting from orange to red, that dropped straight down and faded from view after about two seconds at night.",
+      "note": "The time of night is not legible, so the local date may be a day earlier. The file records an evaluation of probable meteor."
+    }
+  ],
+  "DOW-UAP-D178": [
+    {
+      "date": "1953-11-16",
+      "placeName": "Santa Catalina Island, California, USA (seen from San Pedro, Los Angeles)",
+      "lat": 33.387,
+      "lon": -118.416,
+      "locationConfidence": "medium",
+      "summary": "A serviceman on the ground in San Pedro reported one small round object, purplish-white fading to white, that seemed stationary over Catalina and then moved north-west on a level path until it faded from view, over about ten minutes.",
+      "note": "Pinned on the island where the object was first seen; the observer was on the mainland. The file's own conclusion is astronomical (Jupiter)."
+    }
+  ],
+  "DOW-UAP-D179": [
+    {
+      "date": "1952-06-25",
+      "placeName": "Santa Catalina Island, California, USA",
+      "lat": 33.387,
+      "lon": -118.416,
+      "locationConfidence": "medium",
+      "summary": "Three scouts hiking up a hill on the island from their summer camp reported a silent silver object moving faster than a jet that made one climbing turn and then appeared to break apart and vanish, around midday in clear skies.",
+      "note": "The report says on or about 25 June 1952. Pinned at the island's centre; the exact hillside is not stated."
+    }
+  ],
+  "DOW-UAP-D181": [
+    {
+      "date": "1949-04-28",
+      "placeName": "Avalon, Santa Catalina Island, California, USA",
+      "lat": 33.3428,
+      "lon": -118.3282,
+      "locationConfidence": "medium",
+      "summary": "A resident wrote that two people saw six objects cross the night sky one at a time, and that a few minutes later three family members on the next street saw four more, all heading the same way.",
+      "note": "A second-hand account in a letter. The file's conclusion is insufficient data."
+    }
+  ],
+  "EOP-UAP-D002": [
+    {
+      "notSighting": "A 1963 memorandum about handling recovered fragments; no observation is reported."
+    }
+  ],
+  "FBI-UAP-D024": [
+    {
+      "date": "2023-10",
+      "placeName": "North Atlantic route near Gander, Newfoundland, Canada",
+      "lat": 48.95,
+      "lon": -54.61,
+      "locationConfidence": "low",
+      "summary": "A pilot at 37,000 feet on a transatlantic flight reported one to four white lights he judged to be higher than his aircraft, each brightening and fading over ten seconds to a minute. Some were stationary and others moved in straight lines, sometimes changing direction.",
+      "note": "The aircraft's position is not stated; the pin is at Gander, which the report names only as the direction of the lights."
+    },
+    {
+      "date": "2024-02",
+      "placeName": "In flight about 150 miles north-west of Minneapolis, Minnesota, USA",
+      "lat": 46.5,
+      "lon": -95.5,
+      "locationConfidence": "low",
+      "summary": "A pilot filmed white lights from the cockpit on a clear night, seen to the north at about his altitude or slightly higher. At times ten or more were visible, moving in straight lines and brightening and dimming.",
+      "note": "The document gives two positions that do not agree: about 150 miles north-west of Minneapolis (used here) and 40 to 50 miles north-east of Sioux Falls."
+    },
+    {
+      "date": "2002-06",
+      "placeName": "Bagram, Afghanistan",
+      "lat": 34.946,
+      "lon": 69.265,
+      "locationConfidence": "medium",
+      "summary": "A reservist pilot deployed to Afghanistan, stargazing with another pilot, reported stars being blocked out by a large, silent, unlit triangular shape passing west to east at steady speed and altitude. The second pilot also saw it.",
+      "note": "Pinned at Bagram Airfield; the document says only Bagram."
+    }
+  ],
+  "FBI-UAP-D026": [
+    {
+      "date": "2023-10",
+      "placeName": "Colorado Springs, Colorado, USA",
+      "lat": 38.8339,
+      "lon": -104.8214,
+      "locationConfidence": "medium",
+      "summary": "A resident sitting outside at night with his wife reported a silent, low, triangular object with a hazy, rippling outline passing overhead from north-east to south-west, with a band of silver-blue light along its rear edge. It was in view for about four seconds.",
+      "note": "The day and street address are redacted. Possibly related to FBI-UAP-D030, but the stated times differ."
+    }
+  ],
+  "FBI-UAP-D028": [
+    {
+      "summary": "Two Army veterans in a car leaving a driveway with a third person reported a very large black triangular object flying north at low height with a white light near each corner and a low pulsing hum. It passed out of sight over a tree line after roughly 10 to 15 seconds.",
+      "note": "The location is fully redacted in the document, so the index's region is kept. The document says June or July 2011."
+    }
+  ],
+  "FBI-UAP-D030": [
+    {
+      "date": "2023-10",
+      "placeName": "Colorado Springs, Colorado, USA",
+      "lat": 38.8339,
+      "lon": -104.8214,
+      "locationConfidence": "medium",
+      "summary": "A worker standing in a parking lot with a colleague reported a very large black triangular object with a red light at each corner emerging from a stationary dark-grey cloud. He said it moved south silently, accelerated abruptly, banked sharply and passed out of view.",
+      "note": "The day and workplace are redacted. Possibly related to FBI-UAP-D026, but the stated times differ."
+    }
+  ],
+  "FBI-UAP-D032": [
+    {
+      "summary": "A federal agent, alerted to a radio-frequency detection, looked along the given bearing through a thermal optic and reported two dark objects above a mountain line moving slowly together. He photographed and filmed them and lost sight of them after about five to ten minutes.",
+      "note": "The month, day and location are redacted in the document, so the index's date and region are kept."
+    }
+  ],
+  "FBI-UAP-D033": [
+    {
+      "summary": "A federal agent's written statement reports a heat-emitting airborne object seen through thermal equipment to the west, heading south, until terrain and distance hid it. He estimated it at about half the size of a helicopter filmed the same evening.",
+      "note": "The month, day and location are redacted in the document, so the index's date and region are kept."
+    }
+  ],
+  "FBI-UAP-D037": [
+    {
+      "summary": "A man with long night-vision experience, travelling with a colleague, reported dull red lights moving along a mountain ridgeline to the west for about 20 minutes, then further silent lights overhead and close to the ground to the east over several hours.",
+      "note": "The month, day and location are redacted. Describes the same incident as FBI-UAP-D040, the second witness's account; the two differ on timing."
+    }
+  ],
+  "FBI-UAP-D040": [
+    {
+      "summary": "A man on a reconnaissance drive with a colleague reported a red light at the crest of a mountain range to the west that moved east, joined after about 15 minutes by roughly six to ten more overhead that travelled east together. Later he reported two lights near the ground to the east.",
+      "note": "The month, day and location are redacted. Describes the same incident as FBI-UAP-D037, the other witness's account; the two differ on timing."
+    }
+  ],
+  "DOW-UAP-D174": [
+    {
+      "notSighting": "Not yet read. The index places this investigation report at the contractor's office in Las Vegas, not where the events took place."
+    }
+  ],
+  "CIA-UAP-D022": [
+    {
+      "date": "1964-11-19",
+      "placeName": "Atlantic Ocean north of Puerto Rico",
+      "lat": 19.3,
+      "lon": -66.0,
+      "locationConfidence": "low",
+      "summary": "A Navy fighter pilot reported a delta-shaped object about the size of a jet fighter that outperformed his aircraft. A Navy destroyer reported a very fast radar track and photographed its radar display. The memo's own assessment is that it was probably a delta-wing fighter.",
+      "note": "The document gives only a general area and a distance from Cuba. The memo copy is degraded. Same incident as CIA-UAP-D023."
+    }
+  ],
+  "CIA-UAP-D023": [
+    {
+      "date": "1964-11-24",
+      "placeName": "Atlantic Fleet Weapons Range, off eastern Puerto Rico",
+      "lat": 18.25,
+      "lon": -65.6,
+      "locationConfidence": "low",
+      "summary": "The weapons range tracked a high-speed, high-altitude target that pulled away rapidly from a Navy fighter flying at about Mach 0.99 and 45,000 feet.",
+      "note": "The year is not stated in this document; 1964 comes from the companion CIA-UAP-D022. The notes also describe the 19 November incident, which is pinned from CIA-UAP-D022."
+    }
+  ],
+  "DOS-UAP-D001": [
+    {
+      "date": "1963-11-08",
+      "placeName": "Near Salvador, Bahia, Brazil",
+      "lat": -12.97,
+      "lon": -38.5,
+      "locationConfidence": "low",
+      "summary": "An embassy cable asks a consulate to confirm that a newspaper story of a large metal balloon found with a dead crewman was untrue. It records an understanding that an object had been seen aloft near that date and tentatively taken for a weather balloon, with nothing found on the ground.",
+      "note": "A denial, not a first-hand sighting. The incident date is approximate. Same event as DOS-UAP-D002 and EOP-UAP-D001."
+    }
+  ],
+  "DOS-UAP-D002": [
+    {
+      "date": "1963-11-08",
+      "placeName": "Conde, Bahia, Brazil",
+      "lat": -11.81,
+      "lon": -37.61,
+      "locationConfidence": "medium",
+      "summary": "An embassy airgram relays a consulate's finding that the story of a strange object coming down near the town appeared to be invented: reporters and others who went there found nobody who had seen it, and the air ministry denied the report.",
+      "note": "A negative report. The document prints the year as 1964, read here as 1963 from its own date. Same event as DOS-UAP-D001 and EOP-UAP-D001."
+    }
+  ],
+  "EOP-UAP-D001": [
+    {
+      "date": "1963-11-08",
+      "placeName": "Conde, Bahia, Brazil",
+      "lat": -11.81,
+      "lon": -37.61,
+      "locationConfidence": "medium",
+      "summary": "A monitored radio broadcast relayed reports that a large metal sphere had fallen in the town centre, leaving a deep hole, with a body inside. The companion State Department cables record the story as unfounded.",
+      "note": "The date is that of the broadcast; the incident date is not stated. A second-hand media report. Same event as DOS-UAP-D001 and DOS-UAP-D002."
+    }
+  ],
+  "DOW-UAP-D099": [
+    {
+      "date": "1946-05",
+      "placeName": "Southern Sweden",
+      "lat": 57.0,
+      "lon": 14.5,
+      "locationConfidence": "low",
+      "summary": "An intelligence review says press reports of flying missiles over southern Sweden began at this time. Most witnesses were untrained observers describing either a fireball with a tail or a shiny cigar-shaped object, with widely varying courses, heights and speeds.",
+      "note": "Stands for a wave of reports, not one event. The review's view is that most were meteors or fireworks."
+    },
+    {
+      "date": "1946-08-14",
+      "placeName": "Central Sweden",
+      "lat": 60.5,
+      "lon": 15.5,
+      "locationConfidence": "low",
+      "summary": "A Swedish Air Force pilot flying low reported a dark cigar-shaped object, roughly 50 feet long, slightly above him and more than a mile away, moving at an estimated 400 mph. He saw no wings, flame or light.",
+      "note": "The year is implied by the surrounding text. The review itself questions the reliability of this report."
+    }
+  ],
+  "DOW-UAP-D101": [
+    {
+      "date": "2021-09-08",
+      "placeName": "Gulf of Oman, off the north coast of Oman",
+      "lat": 24.53,
+      "lon": 57.67,
+      "locationConfidence": "medium",
+      "summary": "A gunship crew on a night live-fire exercise reported about 25 instances of cold orbs on its infrared sensor. Two orbs about four feet across hovered low over a target flare for roughly 15 seconds, then left quickly as the cannon was fired.",
+      "note": "Position converted from a partly redacted grid reference; the visible digits are small in the scan and should be checked by eye."
+    }
+  ]
+}

@@ -609,6 +609,13 @@ export const DATA_CREDITS = [
       '<a href="https://worldnewsapi.com/" target="_blank" rel="noopener">World News API</a>',
   },
   {
+    key: 'uap-sightings',
+    html:
+      'UAP sightings (US government): records and links from the ' +
+      '<a href="https://www.war.gov/UFO/" target="_blank" rel="noopener">U.S. Department of War PURSUE releases</a>' +
+      '; pin positions and some summaries are our own, and records are unreviewed unless marked',
+  },
+  {
     key: 'shipwrecks',
     html:
       'Shipwrecks (Europe): <a href="https://emodnet.ec.europa.eu/en/human-activities" target="_blank" rel="noopener">EMODnet Human Activities</a> ' +

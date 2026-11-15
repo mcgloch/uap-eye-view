@@ -3735,7 +3735,6 @@
   "Hide sightings from this source": "Nascondi gli avvistamenti di questa fonte",
   "Show sightings from this source": "Mostra gli avvistamenti di questa fonte",
   "UAP sightings unavailable": "Avvistamenti UAP non disponibili",
-  "Sample pins · not yet from the project sources": "Segnaposto di esempio · non ancora dalle fonti del progetto",
   "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "Il colore indica la fonte. Un segnaposto pieno è un sito noto, uno tenue è approssimativo e un anello tratteggiato è molto approssimativo. Le schede riportano ciò che hanno detto i testimoni e non affermano che cosa fosse l'oggetto. Fai clic su un segnaposto per aprire la scheda.",
   "UAP sightings": "Avvistamenti UAP",
   "Sightings": "Avvistamenti",
@@ -3747,5 +3746,8 @@
     "other": "{count} avvistamenti"
   },
   "Flying Saucer Review": "Flying Saucer Review",
-  "American Alchemy": "American Alchemy"
+  "American Alchemy": "American Alchemy",
+  "Summary: the releasing agency’s own description": "Sintesi: descrizione fornita dall'agenzia che ha pubblicato il file",
+  "Not yet reviewed: built by machine from the release": "Non ancora verificato: generato automaticamente dalla pubblicazione",
+  "US government records from war.gov · sample pins": "Documenti del governo degli Stati Uniti da war.gov · segnaposto di esempio"
 }

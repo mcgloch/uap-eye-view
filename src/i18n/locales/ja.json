@@ -3561,7 +3561,6 @@
   "Hide sightings from this source": "この情報源の目撃情報を非表示",
   "Show sightings from this source": "この情報源の目撃情報を表示",
   "UAP sightings unavailable": "UAP目撃情報は利用できません",
-  "Sample pins · not yet from the project sources": "サンプルのピン · プロジェクトの情報源のものではありません",
   "Colour shows the source. A solid marker is a known site, a faint one is approximate and a dashed ring is very approximate. Cards report what witnesses said and make no claim about what the object was. Click a marker for its card.": "色は情報源を示します。塗りつぶしのマーカーは特定済みの地点、薄いマーカーはおおよその位置、破線の輪はかなり大まかな位置です。カードは目撃者の証言を伝えるもので、物体の正体については何も主張しません。マーカーをクリックするとカードが開きます。",
   "UAP sightings": "UAP目撃情報一覧",
   "Sightings": "目撃情報",
@@ -3571,5 +3570,8 @@
     "other": "{count} 件の目撃"
   },
   "Flying Saucer Review": "Flying Saucer Review",
-  "American Alchemy": "American Alchemy"
+  "American Alchemy": "American Alchemy",
+  "Summary: the releasing agency’s own description": "概要：公開した機関自身による説明",
+  "Not yet reviewed: built by machine from the release": "未確認：公開資料から機械的に作成",
+  "US government records from war.gov · sample pins": "war.gov の米国政府記録 · サンプルのピン"
 }

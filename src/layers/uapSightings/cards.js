@@ -31,6 +31,24 @@ export function formatSightingDate(record) {
   });
 }
 
+const CARD_LINE_LENGTH = 72;
+
+/** Break prose into lines of whole words, so a long summary stays on the card. */
+export function wrapLines(text, width = CARD_LINE_LENGTH) {
+  const lines = [];
+  let line = '';
+  for (const word of String(text || '')
+    .split(/\s+/)
+    .filter(Boolean)) {
+    if (line && line.length + 1 + word.length > width) {
+      lines.push(line);
+      line = word;
+    } else line = line ? `${line} ${word}` : word;
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
 /**
  * Title and detail lines for one sighting card. The card reports what
  * witnesses said and makes no claim about what the object was.
@@ -38,15 +56,24 @@ export function formatSightingDate(record) {
  * @returns {{title: string, details: string[], link: string|null}}
  */
 export function describeSighting(record) {
-  const details = [formatSightingDate(record), record.summary];
+  const details = [
+    record.dateAsStated || formatSightingDate(record),
+    ...wrapLines(record.summary),
+  ];
+  if (record.summaryBy === 'official')
+    details.push(t('Summary: the releasing agency’s own description'));
   details.push(t(CONFIDENCE_LABELS[record.locationConfidence]));
   details.push(
     t('Source: {value}', { value: t(SOURCE_LABELS[record.source]) }),
   );
   if (record.citation)
-    details.push(t('Citation: {value}', { value: record.citation }));
+    details.push(
+      ...wrapLines(t('Citation: {value}', { value: record.citation })),
+    );
   if (record.reviewStatus === 'placeholder')
     details.push(t('Sample pin: source and citation not yet checked'));
+  else if (record.reviewStatus !== 'published')
+    details.push(t('Not yet reviewed: built by machine from the release'));
   const link = mediaLink(record);
   if (link)
     details.push(
